@@ -1,0 +1,2663 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4e20e27a28ef4879b160d80983725aa8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_4e20e27a28ef4879b160d80983725aa8" ></div>
+        
+</body>
+<script>    
+    
+            var map_4e20e27a28ef4879b160d80983725aa8 = L.map(
+                "map_4e20e27a28ef4879b160d80983725aa8",
+                {
+                    center: [42.361145, -71.057083],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_85798c9961c3476cadf65387df29527c = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var marker_7b0a64721adb468283474923ead15161 = L.marker(
+                [42.35234324579048, -71.14057657362147],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_988a04c234d945a4841fc4b905fda7de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7b0a64721adb468283474923ead15161.setIcon(icon_988a04c234d945a4841fc4b905fda7de);
+        
+    
+        var popup_10a6728efa0742419c424bdfb2b8fc9e = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_779a6e55a12a48de8dada531418ece94 = $(`<div id="html_779a6e55a12a48de8dada531418ece94" style="width: 100.0%; height: 100.0%;">Rock City Pizza, 568 Cambridge St, Allston, MA 02134, https://rockcitypizzeria.com/</div>`)[0];
+            popup_10a6728efa0742419c424bdfb2b8fc9e.setContent(html_779a6e55a12a48de8dada531418ece94);
+        
+
+        marker_7b0a64721adb468283474923ead15161.bindPopup(popup_10a6728efa0742419c424bdfb2b8fc9e)
+        ;
+
+        
+    
+    
+            var marker_6d19bab79a1b4885b2ca6e330d9087ab = L.marker(
+                [42.1233109, -71.04093977352116],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_3b62ec4cf4ae42839ac4fd254bb825e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6d19bab79a1b4885b2ca6e330d9087ab.setIcon(icon_3b62ec4cf4ae42839ac4fd254bb825e0);
+        
+    
+        var popup_0d90002fe8004d7f8b2f644d8eabe0f8 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_2f24f7f5594d4493a18228a3e8f66536 = $(`<div id="html_2f24f7f5594d4493a18228a3e8f66536" style="width: 100.0%; height: 100.0%;">TamBos Kitchen, 490 W Main St, Avon, MA 02322, https://tamboskitchen.com/</div>`)[0];
+            popup_0d90002fe8004d7f8b2f644d8eabe0f8.setContent(html_2f24f7f5594d4493a18228a3e8f66536);
+        
+
+        marker_6d19bab79a1b4885b2ca6e330d9087ab.bindPopup(popup_0d90002fe8004d7f8b2f644d8eabe0f8)
+        ;
+
+        
+    
+    
+            var marker_76dda7d6386347f5b8539285e3e12115 = L.marker(
+                [42.306916, -71.06641185714285],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_5a23bd5c33494699a0e078b58870b0ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_76dda7d6386347f5b8539285e3e12115.setIcon(icon_5a23bd5c33494699a0e078b58870b0ae);
+        
+    
+        var popup_99ebddfb0d4a46fe8d47eaa89c613caf = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_abc6cea1acf64e8a9c845ad004cbc14c = $(`<div id="html_abc6cea1acf64e8a9c845ad004cbc14c" style="width: 100.0%; height: 100.0%;">Restaurante Cesaria, 266 Bowdoin St, Boston, MA 02122, https://www.restaurantcesaria.com/</div>`)[0];
+            popup_99ebddfb0d4a46fe8d47eaa89c613caf.setContent(html_abc6cea1acf64e8a9c845ad004cbc14c);
+        
+
+        marker_76dda7d6386347f5b8539285e3e12115.bindPopup(popup_99ebddfb0d4a46fe8d47eaa89c613caf)
+        ;
+
+        
+    
+    
+            var marker_9377a620d32e41df8f59c1e658153525 = L.marker(
+                [42.27349409420357, -71.06784218408322],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_ee6ed5cddf7d42ce8f63c409d8635383 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9377a620d32e41df8f59c1e658153525.setIcon(icon_ee6ed5cddf7d42ce8f63c409d8635383);
+        
+    
+        var popup_9e1ac19f905e460cba37a2214b534b9b = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_19ec19d83245488cb8a70d62bb7db445 = $(`<div id="html_19ec19d83245488cb8a70d62bb7db445" style="width: 100.0%; height: 100.0%;">Bred Gourmet, 2255 Dorchester Ave, Boston, MA 02124, http://www.bredgourmet.com/</div>`)[0];
+            popup_9e1ac19f905e460cba37a2214b534b9b.setContent(html_19ec19d83245488cb8a70d62bb7db445);
+        
+
+        marker_9377a620d32e41df8f59c1e658153525.bindPopup(popup_9e1ac19f905e460cba37a2214b534b9b)
+        ;
+
+        
+    
+    
+            var marker_41d11c39d8454438b2b0010a8b93b232 = L.marker(
+                [42.3398422, -71.0824905],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_58ac9909dc854b2abcf5bdb98937055f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_41d11c39d8454438b2b0010a8b93b232.setIcon(icon_58ac9909dc854b2abcf5bdb98937055f);
+        
+    
+        var popup_392a102bbaab43c4ab45c24a138a02f0 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_fbd9cd37638348fca52d1df0a37637c7 = $(`<div id="html_fbd9cd37638348fca52d1df0a37637c7" style="width: 100.0%; height: 100.0%;">Darryl&#39;s Corner Bar and Kitchen, 604 Columbus Ave, Boston, MA 02118, http://dcbkboston.com/</div>`)[0];
+            popup_392a102bbaab43c4ab45c24a138a02f0.setContent(html_fbd9cd37638348fca52d1df0a37637c7);
+        
+
+        marker_41d11c39d8454438b2b0010a8b93b232.bindPopup(popup_392a102bbaab43c4ab45c24a138a02f0)
+        ;
+
+        
+    
+    
+            var marker_921b7b1dd10947aab2ecc414f608e5f3 = L.marker(
+                [42.31909466396804, -71.08173560939963],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_c23b6a2519d74516b7db6a59e4f143ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_921b7b1dd10947aab2ecc414f608e5f3.setIcon(icon_c23b6a2519d74516b7db6a59e4f143ec);
+        
+    
+        var popup_7b44bfdfeb724fd2be41396bc77fc89f = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_de63afea7f7d4287b0302baec6f49ffb = $(`<div id="html_de63afea7f7d4287b0302baec6f49ffb" style="width: 100.0%; height: 100.0%;">District 7 Tavern, 380 Warren St, Roxbury, MA 02119, https://www.facebook.com/District7Tavern/</div>`)[0];
+            popup_7b44bfdfeb724fd2be41396bc77fc89f.setContent(html_de63afea7f7d4287b0302baec6f49ffb);
+        
+
+        marker_921b7b1dd10947aab2ecc414f608e5f3.bindPopup(popup_7b44bfdfeb724fd2be41396bc77fc89f)
+        ;
+
+        
+    
+    
+            var marker_9bfd2abd40bc473aa2475c92992833d6 = L.marker(
+                [42.31040284013719, -71.0833121378241],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_b5aa15dcfcba4de88645c30402b74c33 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9bfd2abd40bc473aa2475c92992833d6.setIcon(icon_b5aa15dcfcba4de88645c30402b74c33);
+        
+    
+        var popup_dffd3104e01e49168ec8d16b31942c66 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_bc2def08c6c44b1cbdf96b12c9eec736 = $(`<div id="html_bc2def08c6c44b1cbdf96b12c9eec736" style="width: 100.0%; height: 100.0%;">Food for the Soul, 651 Warren St, Boston, MA 02121</div>`)[0];
+            popup_dffd3104e01e49168ec8d16b31942c66.setContent(html_bc2def08c6c44b1cbdf96b12c9eec736);
+        
+
+        marker_9bfd2abd40bc473aa2475c92992833d6.bindPopup(popup_dffd3104e01e49168ec8d16b31942c66)
+        ;
+
+        
+    
+    
+            var marker_96cf082102dc4abeb6e75e1cbc7e505d = L.marker(
+                [42.337577887995266, -71.08337615618235],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_acc56abaee0747cd920fb1414cab555d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_96cf082102dc4abeb6e75e1cbc7e505d.setIcon(icon_acc56abaee0747cd920fb1414cab555d);
+        
+    
+        var popup_475b8c2d33474d4f92c8925a67479358 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_8d91720227f34f6a8febefb341888098 = $(`<div id="html_8d91720227f34f6a8febefb341888098" style="width: 100.0%; height: 100.0%;">Slades Bar and Grill, 958 Tremont St, Boston, MA 02120, http://www.sladesbarandgrill.com</div>`)[0];
+            popup_475b8c2d33474d4f92c8925a67479358.setContent(html_8d91720227f34f6a8febefb341888098);
+        
+
+        marker_96cf082102dc4abeb6e75e1cbc7e505d.bindPopup(popup_475b8c2d33474d4f92c8925a67479358)
+        ;
+
+        
+    
+    
+            var marker_b11c29cda8fd494b809f195fbaac5b6e = L.marker(
+                [42.340631450000004, -71.08222834999998],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_4ffb842ccc844b61804c590d8754b308 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b11c29cda8fd494b809f195fbaac5b6e.setIcon(icon_4ffb842ccc844b61804c590d8754b308);
+        
+    
+        var popup_4af3d257b9db49c69c67200bda0ae574 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_8004b83aa6d64f31b3eec8e581c10831 = $(`<div id="html_8004b83aa6d64f31b3eec8e581c10831" style="width: 100.0%; height: 100.0%;">Wally&#39;s Café, 427 Massachusetts Ave, Boston, MA 02118, http://www.wallyscafe.com/index.html</div>`)[0];
+            popup_4af3d257b9db49c69c67200bda0ae574.setContent(html_8004b83aa6d64f31b3eec8e581c10831);
+        
+
+        marker_b11c29cda8fd494b809f195fbaac5b6e.bindPopup(popup_4af3d257b9db49c69c67200bda0ae574)
+        ;
+
+        
+    
+    
+            var marker_21e0ae67dd84474cb2c985287900863a = L.marker(
+                [42.327935502100544, -71.07757817254648],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_d4defa19176140dc9c3b13c82932eaa3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_21e0ae67dd84474cb2c985287900863a.setIcon(icon_d4defa19176140dc9c3b13c82932eaa3);
+        
+    
+        var popup_0952d3126b0640719d53f40d9b7a4db0 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_752f99a3d75e46d589cfc4661d48c6ba = $(`<div id="html_752f99a3d75e46d589cfc4661d48c6ba" style="width: 100.0%; height: 100.0%;">Maxine&#39;s on Saint James, 304 Dudley St, Boston, MA 02119, https://www.maxinesonstjames.com/</div>`)[0];
+            popup_0952d3126b0640719d53f40d9b7a4db0.setContent(html_752f99a3d75e46d589cfc4661d48c6ba);
+        
+
+        marker_21e0ae67dd84474cb2c985287900863a.bindPopup(popup_0952d3126b0640719d53f40d9b7a4db0)
+        ;
+
+        
+    
+    
+            var marker_56b0ba378a214a538602d629ce687ea8 = L.marker(
+                [42.32423004001341, -71.06822158813175],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_a7eec6f9e6764377aafe2261bdaa6422 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_56b0ba378a214a538602d629ce687ea8.setIcon(icon_a7eec6f9e6764377aafe2261bdaa6422);
+        
+    
+        var popup_6f20719adf83433e8e94578f6e12bc15 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_e5cf2985404044d78a24a67bc7d11340 = $(`<div id="html_e5cf2985404044d78a24a67bc7d11340" style="width: 100.0%; height: 100.0%;">Top Mix Bar &amp; Kitchen, 257 Norfolk Ave, Boston, MA 02119, https://www.topmixbar.com/</div>`)[0];
+            popup_6f20719adf83433e8e94578f6e12bc15.setContent(html_e5cf2985404044d78a24a67bc7d11340);
+        
+
+        marker_56b0ba378a214a538602d629ce687ea8.bindPopup(popup_6f20719adf83433e8e94578f6e12bc15)
+        ;
+
+        
+    
+    
+            var marker_5d2e3abb74ea42efbbc1fd948e2ffc90 = L.marker(
+                [42.312852, -71.07445],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_f5c92f0553da4de29561dc26841922b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5d2e3abb74ea42efbbc1fd948e2ffc90.setIcon(icon_f5c92f0553da4de29561dc26841922b6);
+        
+    
+        var popup_9bb85189cf4640289edf4963587f7b94 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_56b9c1fca1a5439e9cfcfadb0f88220e = $(`<div id="html_56b9c1fca1a5439e9cfcfadb0f88220e" style="width: 100.0%; height: 100.0%;">Clarke&#39;s Cakes and Cookies, 196 Quincy St, Boston, MA 02121, https://www.clarkescakesandcookies.com/</div>`)[0];
+            popup_9bb85189cf4640289edf4963587f7b94.setContent(html_56b9c1fca1a5439e9cfcfadb0f88220e);
+        
+
+        marker_5d2e3abb74ea42efbbc1fd948e2ffc90.bindPopup(popup_9bb85189cf4640289edf4963587f7b94)
+        ;
+
+        
+    
+    
+            var marker_34e3575fe12d494b96080840b42591bd = L.marker(
+                [42.3034811, -71.0851665],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_93f91d7624f24ba6b256a5c14c5517f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_34e3575fe12d494b96080840b42591bd.setIcon(icon_93f91d7624f24ba6b256a5c14c5517f5);
+        
+    
+        var popup_18dccf61c0ee407a936085911133297c = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_50345f56de4046c2b52ec07618aaedde = $(`<div id="html_50345f56de4046c2b52ec07618aaedde" style="width: 100.0%; height: 100.0%;">Family Affair Catering, 554 Columbia Rd, Dorchester, MA 02125, https://famaffairboston.wixsite.com/mysite</div>`)[0];
+            popup_18dccf61c0ee407a936085911133297c.setContent(html_50345f56de4046c2b52ec07618aaedde);
+        
+
+        marker_34e3575fe12d494b96080840b42591bd.bindPopup(popup_18dccf61c0ee407a936085911133297c)
+        ;
+
+        
+    
+    
+            var marker_8345aa5f582d4cb39cd23805e3ac756d = L.marker(
+                [42.30891932312241, -71.08269989633494],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_45673b47fc994767a6b527461bff93cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8345aa5f582d4cb39cd23805e3ac756d.setIcon(icon_45673b47fc994767a6b527461bff93cd);
+        
+    
+        var popup_18802446ac6841aa80daae3a9ba45009 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_48df7dc4a2b5472b84ade2e9831e0f3c = $(`<div id="html_48df7dc4a2b5472b84ade2e9831e0f3c" style="width: 100.0%; height: 100.0%;">Flames Restaurant, 469 Blue Hill Ave, Boston, MA 02121, http://flamesjamaicanrestaurants.com/</div>`)[0];
+            popup_18802446ac6841aa80daae3a9ba45009.setContent(html_48df7dc4a2b5472b84ade2e9831e0f3c);
+        
+
+        marker_8345aa5f582d4cb39cd23805e3ac756d.bindPopup(popup_18802446ac6841aa80daae3a9ba45009)
+        ;
+
+        
+    
+    
+            var marker_4f159c99fcfc4d09b777b57d650435f3 = L.marker(
+                [42.3415773, -71.0864927],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_d6c625d9492343a9b418f396f3b454d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4f159c99fcfc4d09b777b57d650435f3.setIcon(icon_d6c625d9492343a9b418f396f3b454d3);
+        
+    
+        var popup_fc5d43ba5a134d28927723c4422502a4 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_0dbf9f8cc6ec44a68fb6fce96f96e4fe = $(`<div id="html_0dbf9f8cc6ec44a68fb6fce96f96e4fe" style="width: 100.0%; height: 100.0%;">Flames Restaurant II, 746 Huntington Ave, Boston, MA 02115, http://flamesjamaicanrestaurants.com/</div>`)[0];
+            popup_fc5d43ba5a134d28927723c4422502a4.setContent(html_0dbf9f8cc6ec44a68fb6fce96f96e4fe);
+        
+
+        marker_4f159c99fcfc4d09b777b57d650435f3.bindPopup(popup_fc5d43ba5a134d28927723c4422502a4)
+        ;
+
+        
+    
+    
+            var marker_22277f8131c543b59b457adbdf921e83 = L.marker(
+                [42.312852, -71.07445],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_0954a3bb300045fd9cc8f26bd546e275 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_22277f8131c543b59b457adbdf921e83.setIcon(icon_0954a3bb300045fd9cc8f26bd546e275);
+        
+    
+        var popup_e1a003d8d62a4414b43dbb82383be21a = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_195a8b9a30e147bf96696e6aa8aaf8c6 = $(`<div id="html_195a8b9a30e147bf96696e6aa8aaf8c6" style="width: 100.0%; height: 100.0%;">Fresh Food Generation, 196 Quincy St, Boston, MA 02125, http://www.freshfoodgeneration.com/</div>`)[0];
+            popup_e1a003d8d62a4414b43dbb82383be21a.setContent(html_195a8b9a30e147bf96696e6aa8aaf8c6);
+        
+
+        marker_22277f8131c543b59b457adbdf921e83.bindPopup(popup_e1a003d8d62a4414b43dbb82383be21a)
+        ;
+
+        
+    
+    
+            var marker_db4ec8471b6545d6ac5c42d1ec488ff6 = L.marker(
+                [42.29964066186969, -71.07378912722358],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_0792e16072d94bd382d9d42787a512fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_db4ec8471b6545d6ac5c42d1ec488ff6.setIcon(icon_0792e16072d94bd382d9d42787a512fc);
+        
+    
+        var popup_10b54c521962473f8c7432b960d13e2f = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_7c0d71b348044fda9641b79a5b3b2eff = $(`<div id="html_7c0d71b348044fda9641b79a5b3b2eff" style="width: 100.0%; height: 100.0%;">Oasis Vegan Veggie Parlor, 340 Washington St, Boston, MA 02121, https://boston.eater.com/2017/9/19/16333282/oasis-vegan-veggie-parlor-dorchester</div>`)[0];
+            popup_10b54c521962473f8c7432b960d13e2f.setContent(html_7c0d71b348044fda9641b79a5b3b2eff);
+        
+
+        marker_db4ec8471b6545d6ac5c42d1ec488ff6.bindPopup(popup_10b54c521962473f8c7432b960d13e2f)
+        ;
+
+        
+    
+    
+            var marker_3df5e598f9ad44e08bbb358e81920d5b = L.marker(
+                [42.35034761690001, -71.05865541074418],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_49c856a4da4e40b4bb9de2ed17175be3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3df5e598f9ad44e08bbb358e81920d5b.setIcon(icon_49c856a4da4e40b4bb9de2ed17175be3);
+        
+    
+        var popup_bc82198231634e84af627c7366d46f7b = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_b160b4d04e98410aa57457a34dea5e6a = $(`<div id="html_b160b4d04e98410aa57457a34dea5e6a" style="width: 100.0%; height: 100.0%;">Savvor Restaurant and Lounge, 180 Lincoln St, Boston, MA 02111, http://www.savvorbostonlounge.com</div>`)[0];
+            popup_bc82198231634e84af627c7366d46f7b.setContent(html_b160b4d04e98410aa57457a34dea5e6a);
+        
+
+        marker_3df5e598f9ad44e08bbb358e81920d5b.bindPopup(popup_bc82198231634e84af627c7366d46f7b)
+        ;
+
+        
+    
+    
+            var marker_ed2f3ffd7d494f79bd15dedf28d2e921 = L.marker(
+                [42.255895853213275, -71.12265904761315],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_73ee3f817a324f649e413edd4fc314ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ed2f3ffd7d494f79bd15dedf28d2e921.setIcon(icon_73ee3f817a324f649e413edd4fc314ba);
+        
+    
+        var popup_87e45995e9fe45d98320e62cb0a67471 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_a5c3faf72b5841a9aaed371db2b4d963 = $(`<div id="html_a5c3faf72b5841a9aaed371db2b4d963" style="width: 100.0%; height: 100.0%;">Zaz Restaurant, 1238 River St, Boston, MA 02136, http://www.zazrestaurant.com</div>`)[0];
+            popup_87e45995e9fe45d98320e62cb0a67471.setContent(html_a5c3faf72b5841a9aaed371db2b4d963);
+        
+
+        marker_ed2f3ffd7d494f79bd15dedf28d2e921.bindPopup(popup_87e45995e9fe45d98320e62cb0a67471)
+        ;
+
+        
+    
+    
+            var marker_cdff46eff82c4c61995b395e2e082da4 = L.marker(
+                [42.3390224, -71.0804718],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_a9283178bf3c416db382a58be0e6165f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cdff46eff82c4c61995b395e2e082da4.setIcon(icon_a9283178bf3c416db382a58be0e6165f);
+        
+    
+        var popup_340503874730485b81dcff91b0b84e30 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_f02438331e664f87975932a8dc90b315 = $(`<div id="html_f02438331e664f87975932a8dc90b315" style="width: 100.0%; height: 100.0%;">MIDA Restaurant, 782 Tremont St, Boston, MA 02118, https://www.midaboston.com</div>`)[0];
+            popup_340503874730485b81dcff91b0b84e30.setContent(html_f02438331e664f87975932a8dc90b315);
+        
+
+        marker_cdff46eff82c4c61995b395e2e082da4.bindPopup(popup_340503874730485b81dcff91b0b84e30)
+        ;
+
+        
+    
+    
+            var marker_673ad4bd60034457b7ebc4d27a7813a4 = L.marker(
+                [42.3286333, -71.0837823],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_ee0304047af044238c36fd55c397dab4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_673ad4bd60034457b7ebc4d27a7813a4.setIcon(icon_ee0304047af044238c36fd55c397dab4);
+        
+    
+        var popup_2928d9e424454d24a5b16f39c21eaa1d = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_24024e658c864dacbe62942a40c139be = $(`<div id="html_24024e658c864dacbe62942a40c139be" style="width: 100.0%; height: 100.0%;">Ideal Sub Shop, 522 Dudley St, Roxbury, MA 02119</div>`)[0];
+            popup_2928d9e424454d24a5b16f39c21eaa1d.setContent(html_24024e658c864dacbe62942a40c139be);
+        
+
+        marker_673ad4bd60034457b7ebc4d27a7813a4.bindPopup(popup_2928d9e424454d24a5b16f39c21eaa1d)
+        ;
+
+        
+    
+    
+            var marker_459d1cb8709f423681c75685d99d0232 = L.marker(
+                [42.29489244444444, -71.07191822222222],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_39e1571b35b04d1597cb2e34339c734a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_459d1cb8709f423681c75685d99d0232.setIcon(icon_39e1571b35b04d1597cb2e34339c734a);
+        
+    
+        var popup_e2d77297eaa24183a90c58783f982c53 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_555a8b3167664268abc680af59c834c2 = $(`<div id="html_555a8b3167664268abc680af59c834c2" style="width: 100.0%; height: 100.0%;">JP Roti Shop, 482 Washington St, Boston, MA 02124</div>`)[0];
+            popup_e2d77297eaa24183a90c58783f982c53.setContent(html_555a8b3167664268abc680af59c834c2);
+        
+
+        marker_459d1cb8709f423681c75685d99d0232.bindPopup(popup_e2d77297eaa24183a90c58783f982c53)
+        ;
+
+        
+    
+    
+            var marker_25e13a9ebfe446b78c368c3feb133578 = L.marker(
+                [42.3467199, -71.0747264],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_d444dddbc5044b5098ac053eb9210d5a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_25e13a9ebfe446b78c368c3feb133578.setIcon(icon_d444dddbc5044b5098ac053eb9210d5a);
+        
+    
+        var popup_e766de117ede4e96be7de57c10c02d66 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_9819044dd4a24608a66d84d7dd4b1cc8 = $(`<div id="html_9819044dd4a24608a66d84d7dd4b1cc8" style="width: 100.0%; height: 100.0%;">Urban Grape, 303 Columbus Ave, Boston, MA 02116, http://theurbangrape.com/</div>`)[0];
+            popup_e766de117ede4e96be7de57c10c02d66.setContent(html_9819044dd4a24608a66d84d7dd4b1cc8);
+        
+
+        marker_25e13a9ebfe446b78c368c3feb133578.bindPopup(popup_e766de117ede4e96be7de57c10c02d66)
+        ;
+
+        
+    
+    
+            var marker_54f76ef4dae24476899cb16b77b36911 = L.marker(
+                [42.270496449999996, -71.09322265],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_003a070882474ccd92090911e4808fc0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_54f76ef4dae24476899cb16b77b36911.setIcon(icon_003a070882474ccd92090911e4808fc0);
+        
+    
+        var popup_5368a23e9f7e48dba6f7e8a31ee14031 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_9afd2d09ad684c0196b4abc6c82ff4cb = $(`<div id="html_9afd2d09ad684c0196b4abc6c82ff4cb" style="width: 100.0%; height: 100.0%;">Shea Butter Smoothies, 1556 Blue Hill Avenue, Mattapan, MA 02126, https://www.yelp.com/biz/shea-butter-smoothies-boston</div>`)[0];
+            popup_5368a23e9f7e48dba6f7e8a31ee14031.setContent(html_9afd2d09ad684c0196b4abc6c82ff4cb);
+        
+
+        marker_54f76ef4dae24476899cb16b77b36911.bindPopup(popup_5368a23e9f7e48dba6f7e8a31ee14031)
+        ;
+
+        
+    
+    
+            var marker_a85876c7d1694bb4959f79a435dbd164 = L.marker(
+                [42.280965231957424, -71.08467461606152],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_667e809e6b214535a854393a0d8c5f4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a85876c7d1694bb4959f79a435dbd164.setIcon(icon_667e809e6b214535a854393a0d8c5f4c);
+        
+    
+        var popup_03651fe4866046eb94827850a8b349fb = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_10d69b08872a457bbdfec7e602e13dcb = $(`<div id="html_10d69b08872a457bbdfec7e602e13dcb" style="width: 100.0%; height: 100.0%;">Blue Mountain Jamaican Restaurant, 884 Morton St, Boston, MA 02126, http://bluemountainjamaicanrestaurant.com/</div>`)[0];
+            popup_03651fe4866046eb94827850a8b349fb.setContent(html_10d69b08872a457bbdfec7e602e13dcb);
+        
+
+        marker_a85876c7d1694bb4959f79a435dbd164.bindPopup(popup_03651fe4866046eb94827850a8b349fb)
+        ;
+
+        
+    
+    
+            var marker_797bf4247a5c4ecc9bd57f61aae161cb = L.marker(
+                [42.296345624999994, -71.08766490000001],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_c15d690b6bed447c92b09a0802bfc292 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_797bf4247a5c4ecc9bd57f61aae161cb.setIcon(icon_c15d690b6bed447c92b09a0802bfc292);
+        
+    
+        var popup_709875d9b68d4a05afabc690ca2a1139 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_51694dcea9c04867978ae9ffd4fbb79f = $(`<div id="html_51694dcea9c04867978ae9ffd4fbb79f" style="width: 100.0%; height: 100.0%;">Country Kitchen, 838 Blue Hill Ave, Boston, MA 02124, https://www.yelp.com/biz/country-kitchen-dorchester-center</div>`)[0];
+            popup_709875d9b68d4a05afabc690ca2a1139.setContent(html_51694dcea9c04867978ae9ffd4fbb79f);
+        
+
+        marker_797bf4247a5c4ecc9bd57f61aae161cb.bindPopup(popup_709875d9b68d4a05afabc690ca2a1139)
+        ;
+
+        
+    
+    
+            var marker_6c14a41e4941404991d954520b272255 = L.marker(
+                [42.28928815524619, -71.07283851980753],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_8b2d39ef4b4c4d67b8f52fbc2a54a1e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6c14a41e4941404991d954520b272255.setIcon(icon_8b2d39ef4b4c4d67b8f52fbc2a54a1e6);
+        
+    
+        var popup_65852a9fd8804eb7816b12d8e13373ed = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_38fb29b098044a5181da59efff295e8b = $(`<div id="html_38fb29b098044a5181da59efff295e8b" style="width: 100.0%; height: 100.0%;">Taste of Eden, 38 Norfolk Street, Boston, MA 02124, http://www.tasteofedenjamerican.net/</div>`)[0];
+            popup_65852a9fd8804eb7816b12d8e13373ed.setContent(html_38fb29b098044a5181da59efff295e8b);
+        
+
+        marker_6c14a41e4941404991d954520b272255.bindPopup(popup_65852a9fd8804eb7816b12d8e13373ed)
+        ;
+
+        
+    
+    
+            var marker_62299f608ca84cdfa25f478f2b8d0ac4 = L.marker(
+                [42.30461425, -71.07939625],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_f80b3d1b6af34377a3aa96a10c030d0d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_62299f608ca84cdfa25f478f2b8d0ac4.setIcon(icon_f80b3d1b6af34377a3aa96a10c030d0d);
+        
+    
+        var popup_4f62ea9a1bdd4e3d9547bf2d2e433730 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_12c463f897224bb5bdc3098954d3792f = $(`<div id="html_12c463f897224bb5bdc3098954d3792f" style="width: 100.0%; height: 100.0%;">Murl&#39;s Kitchen, 143 Washington St, Dorchester, MA 02121, https://www.yelp.com/biz/murls-kitchen-boston</div>`)[0];
+            popup_4f62ea9a1bdd4e3d9547bf2d2e433730.setContent(html_12c463f897224bb5bdc3098954d3792f);
+        
+
+        marker_62299f608ca84cdfa25f478f2b8d0ac4.bindPopup(popup_4f62ea9a1bdd4e3d9547bf2d2e433730)
+        ;
+
+        
+    
+    
+            var marker_bfd6dcee95db40cdbbc44a5c20dabe27 = L.marker(
+                [42.32909827693212, -71.08481936530762],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_71abe0b738164c8894a08948b1ca54b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bfd6dcee95db40cdbbc44a5c20dabe27.setIcon(icon_71abe0b738164c8894a08948b1ca54b2);
+        
+    
+        var popup_0011820d5c984c23a07d2f061e19761f = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_1bc65181e4fb4fa4b069a12d30621361 = $(`<div id="html_1bc65181e4fb4fa4b069a12d30621361" style="width: 100.0%; height: 100.0%;">Silver Slipper Restaurant, 2387 Washington St, Roxbury, MA 02119, https://www.yelp.com/biz/silver-slipper-restaurant-roxbury</div>`)[0];
+            popup_0011820d5c984c23a07d2f061e19761f.setContent(html_1bc65181e4fb4fa4b069a12d30621361);
+        
+
+        marker_bfd6dcee95db40cdbbc44a5c20dabe27.bindPopup(popup_0011820d5c984c23a07d2f061e19761f)
+        ;
+
+        
+    
+    
+            var marker_8c752ec9ae104aaf88230654f31239ed = L.marker(
+                [42.3419062, -71.083346],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_8f23dc8c40cd43948b55db7a3fa48838 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8c752ec9ae104aaf88230654f31239ed.setIcon(icon_8f23dc8c40cd43948b55db7a3fa48838);
+        
+    
+        var popup_2e24b3e4fd744cbb9cf4cd72396b1813 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_b9c6ebb23e8f483ab3838d9ab7a621da = $(`<div id="html_b9c6ebb23e8f483ab3838d9ab7a621da" style="width: 100.0%; height: 100.0%;">Farmer Horse Coffee, 374 Massachusetts Ave, Boston, MA 02115</div>`)[0];
+            popup_2e24b3e4fd744cbb9cf4cd72396b1813.setContent(html_b9c6ebb23e8f483ab3838d9ab7a621da);
+        
+
+        marker_8c752ec9ae104aaf88230654f31239ed.bindPopup(popup_2e24b3e4fd744cbb9cf4cd72396b1813)
+        ;
+
+        
+    
+    
+            var marker_f2d55cbf74114979a8c2d3bda0f1f9d8 = L.marker(
+                [42.25638223230832, -71.12043229045054],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_372f4f44710d4c4a980c1688e5546024 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f2d55cbf74114979a8c2d3bda0f1f9d8.setIcon(icon_372f4f44710d4c4a980c1688e5546024);
+        
+    
+        var popup_884b8048302140629025cecc80a7b579 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_beadf3ca20d34b3fa7aa0cbdd15328c4 = $(`<div id="html_beadf3ca20d34b3fa7aa0cbdd15328c4" style="width: 100.0%; height: 100.0%;">Farah&#39;s Café , 1158 River St, Boston, MA 02136</div>`)[0];
+            popup_884b8048302140629025cecc80a7b579.setContent(html_beadf3ca20d34b3fa7aa0cbdd15328c4);
+        
+
+        marker_f2d55cbf74114979a8c2d3bda0f1f9d8.bindPopup(popup_884b8048302140629025cecc80a7b579)
+        ;
+
+        
+    
+    
+            var marker_500f262a38014ea9b7877df028bc5ee3 = L.marker(
+                [42.2953134402934, -71.08760276460016],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_eb61d1a705c145d08d2e7cf0443a3e4d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_500f262a38014ea9b7877df028bc5ee3.setIcon(icon_eb61d1a705c145d08d2e7cf0443a3e4d);
+        
+    
+        var popup_cfeb7198c0de4da291d52a2049a879a4 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_be6634e8d7cb4ee694a217625cfad555 = $(`<div id="html_be6634e8d7cb4ee694a217625cfad555" style="width: 100.0%; height: 100.0%;">Natif Natal, 830 Blue Hill Ave, Boston, MA 02124, http://ordernatifnatal.com/</div>`)[0];
+            popup_cfeb7198c0de4da291d52a2049a879a4.setContent(html_be6634e8d7cb4ee694a217625cfad555);
+        
+
+        marker_500f262a38014ea9b7877df028bc5ee3.bindPopup(popup_cfeb7198c0de4da291d52a2049a879a4)
+        ;
+
+        
+    
+    
+            var marker_e6725eeec13348c79cdc6ffca88da2c2 = L.marker(
+                [42.287086625, -71.090711875],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_851b8075917d4b6e8418e569eaabb153 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e6725eeec13348c79cdc6ffca88da2c2.setIcon(icon_851b8075917d4b6e8418e569eaabb153);
+        
+    
+        var popup_a3c89d1e1aaf4a34a1efd140ddd99f91 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_9b457e50e4294577b605ba53ee725687 = $(`<div id="html_9b457e50e4294577b605ba53ee725687" style="width: 100.0%; height: 100.0%;">Nu Flav Restaurant, 1100 Blue Hill Ave, Boston, MA 02124, https://nuflavtogo.com/</div>`)[0];
+            popup_a3c89d1e1aaf4a34a1efd140ddd99f91.setContent(html_9b457e50e4294577b605ba53ee725687);
+        
+
+        marker_e6725eeec13348c79cdc6ffca88da2c2.bindPopup(popup_a3c89d1e1aaf4a34a1efd140ddd99f91)
+        ;
+
+        
+    
+    
+            var marker_cad2079855af453f8476469261d8700a = L.marker(
+                [42.303566, -71.0787986],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_bb152e4614ae40269927d46ab2014207 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cad2079855af453f8476469261d8700a.setIcon(icon_bb152e4614ae40269927d46ab2014207);
+        
+    
+        var popup_c33cd6082c774c69af46771acfe4927e = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_c3799063ccc14e1fb9868decf63b9aef = $(`<div id="html_c3799063ccc14e1fb9868decf63b9aef" style="width: 100.0%; height: 100.0%;">Island Style Jamaican Restaurant, 183 Washington St, Boston, MA 02121</div>`)[0];
+            popup_c33cd6082c774c69af46771acfe4927e.setContent(html_c3799063ccc14e1fb9868decf63b9aef);
+        
+
+        marker_cad2079855af453f8476469261d8700a.bindPopup(popup_c33cd6082c774c69af46771acfe4927e)
+        ;
+
+        
+    
+    
+            var marker_87b96f4b972542aaae2060d4eefc2f47 = L.marker(
+                [42.2671715, -71.0944404],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_e1d3b16397154ce689ed406dd7e98b56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_87b96f4b972542aaae2060d4eefc2f47.setIcon(icon_e1d3b16397154ce689ed406dd7e98b56);
+        
+    
+        var popup_85731e6556424bc8bfae56b359e5cdb9 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_6ecac41f11294d44ad75d8ec12c975b6 = $(`<div id="html_6ecac41f11294d44ad75d8ec12c975b6" style="width: 100.0%; height: 100.0%;">Right Taste Jamaican Restaurant, 522 River St, Mattapan, MA 02126, https://www.restaurantji.com/ma/boston/right-taste-jamaican-restaurant-/</div>`)[0];
+            popup_85731e6556424bc8bfae56b359e5cdb9.setContent(html_6ecac41f11294d44ad75d8ec12c975b6);
+        
+
+        marker_87b96f4b972542aaae2060d4eefc2f47.bindPopup(popup_85731e6556424bc8bfae56b359e5cdb9)
+        ;
+
+        
+    
+    
+            var marker_d002628a8b114ece8f6dab2c23441483 = L.marker(
+                [42.330308450000004, -71.05289748125072],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_028256cce2a14a839b16c82d17ae11e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d002628a8b114ece8f6dab2c23441483.setIcon(icon_028256cce2a14a839b16c82d17ae11e5);
+        
+    
+        var popup_f98cf2856fb34342841de4bbe99580ce = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_ed9cc475f0a849b99019cb5cee6de8cd = $(`<div id="html_ed9cc475f0a849b99019cb5cee6de8cd" style="width: 100.0%; height: 100.0%;">On The Edge Nutrition, 283 Old Colony Ave,, Boston, MA 02127, https://linktr.ee/OnTheEdgeNutrition</div>`)[0];
+            popup_f98cf2856fb34342841de4bbe99580ce.setContent(html_ed9cc475f0a849b99019cb5cee6de8cd);
+        
+
+        marker_d002628a8b114ece8f6dab2c23441483.bindPopup(popup_f98cf2856fb34342841de4bbe99580ce)
+        ;
+
+        
+    
+    
+            var marker_c7e1e6985d6a4e15adc99dafa7cba3d6 = L.marker(
+                [42.3287383, -71.0854775],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_7f25fe58977f4ff0a04569df0b127263 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c7e1e6985d6a4e15adc99dafa7cba3d6.setIcon(icon_7f25fe58977f4ff0a04569df0b127263);
+        
+    
+        var popup_620bc47e03674677aa601f35218b586c = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_e5376b4aa6854f389f4995248b594f75 = $(`<div id="html_e5376b4aa6854f389f4995248b594f75" style="width: 100.0%; height: 100.0%;">Millenium Restaurant, 3094 Washington St, Boston, MA 02119</div>`)[0];
+            popup_620bc47e03674677aa601f35218b586c.setContent(html_e5376b4aa6854f389f4995248b594f75);
+        
+
+        marker_c7e1e6985d6a4e15adc99dafa7cba3d6.bindPopup(popup_620bc47e03674677aa601f35218b586c)
+        ;
+
+        
+    
+    
+            var marker_a8b62f947035426ca4d4aa98726ecbbc = L.marker(
+                [42.332978, -71.07293954545455],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_17e9dbd717614b6ba2b193624139e91a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a8b62f947035426ca4d4aa98726ecbbc.setIcon(icon_17e9dbd717614b6ba2b193624139e91a);
+        
+    
+        var popup_354849989f134136a6f5daa90be2af89 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_4c37e69a645045838636499c09955786 = $(`<div id="html_4c37e69a645045838636499c09955786" style="width: 100.0%; height: 100.0%;">Doña Habana Restaurant, 811 Massachusetts Ave, Boston, MA 02118, http://donahabanarestaurant.com/</div>`)[0];
+            popup_354849989f134136a6f5daa90be2af89.setContent(html_4c37e69a645045838636499c09955786);
+        
+
+        marker_a8b62f947035426ca4d4aa98726ecbbc.bindPopup(popup_354849989f134136a6f5daa90be2af89)
+        ;
+
+        
+    
+    
+            var marker_67b6393bd2914dfe8e21e464fa76baf2 = L.marker(
+                [42.319158, -71.077639],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_329b9539411048a0a50953854be5dece = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_67b6393bd2914dfe8e21e464fa76baf2.setIcon(icon_329b9539411048a0a50953854be5dece);
+        
+    
+        var popup_344f0d8a905b407da25b8c3527b2bde3 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_571b96ce69684e95885334b56706a3ae = $(`<div id="html_571b96ce69684e95885334b56706a3ae" style="width: 100.0%; height: 100.0%;">Merengue Restaurant, 160 Blue Hill Avenue, Boston, MA 02125, http://merenguerestaurant.com/</div>`)[0];
+            popup_344f0d8a905b407da25b8c3527b2bde3.setContent(html_571b96ce69684e95885334b56706a3ae);
+        
+
+        marker_67b6393bd2914dfe8e21e464fa76baf2.bindPopup(popup_344f0d8a905b407da25b8c3527b2bde3)
+        ;
+
+        
+    
+    
+            var marker_8510bbb66c1a401ea9b4e6dace2a2a31 = L.marker(
+                [42.342451000000004, -71.08431733333333],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_93e0d335fecc492da8ccf16a9c559cc6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8510bbb66c1a401ea9b4e6dace2a2a31.setIcon(icon_93e0d335fecc492da8ccf16a9c559cc6);
+        
+    
+        var popup_fe18cfe40b47450c88c993199de2c9d8 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_90191641129b4ce2b9d602462edca149 = $(`<div id="html_90191641129b4ce2b9d602462edca149" style="width: 100.0%; height: 100.0%;">Lucy Ethiopian Cafe, 334 Massachusetts Ave, Boston, MA 02115, http://places.singleplatform.com/lucy-ethiopian-cafe/menu?ref=google</div>`)[0];
+            popup_fe18cfe40b47450c88c993199de2c9d8.setContent(html_90191641129b4ce2b9d602462edca149);
+        
+
+        marker_8510bbb66c1a401ea9b4e6dace2a2a31.bindPopup(popup_fe18cfe40b47450c88c993199de2c9d8)
+        ;
+
+        
+    
+    
+            var marker_dcd3b3be3a1047a5bed0cf42be75c112 = L.marker(
+                [42.292816, -71.088516],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_380228e2f64241d79fc4e7ecf9fc8150 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dcd3b3be3a1047a5bed0cf42be75c112.setIcon(icon_380228e2f64241d79fc4e7ecf9fc8150);
+        
+    
+        var popup_a39bf1b546214ae6b778dbfc44e5228f = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_858e257b527e4b6e9f4e788e71ddad1e = $(`<div id="html_858e257b527e4b6e9f4e788e71ddad1e" style="width: 100.0%; height: 100.0%;">Wingz and Tingz, 388 Blue Hill Ave, Boston, MA 02124, https://www.wingzandtingz.com/locations-1</div>`)[0];
+            popup_a39bf1b546214ae6b778dbfc44e5228f.setContent(html_858e257b527e4b6e9f4e788e71ddad1e);
+        
+
+        marker_dcd3b3be3a1047a5bed0cf42be75c112.bindPopup(popup_a39bf1b546214ae6b778dbfc44e5228f)
+        ;
+
+        
+    
+    
+            var marker_6f8964b826d446869bef52b231f03dcb = L.marker(
+                [42.3487374, -71.039117],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_1e9c29cea42f475784d9a0ce3fb50834 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6f8964b826d446869bef52b231f03dcb.setIcon(icon_1e9c29cea42f475784d9a0ce3fb50834);
+        
+    
+        var popup_df4ad88c65d84746945aa14e201f6fe3 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_d67f4a4fb0034514a0ebf61fd944b010 = $(`<div id="html_d67f4a4fb0034514a0ebf61fd944b010" style="width: 100.0%; height: 100.0%;">Larry J&#39;s BBQ Cafe, 600 D St, Boston, MA 02151, https://www.larryjsbbqcafe.com/</div>`)[0];
+            popup_df4ad88c65d84746945aa14e201f6fe3.setContent(html_d67f4a4fb0034514a0ebf61fd944b010);
+        
+
+        marker_6f8964b826d446869bef52b231f03dcb.bindPopup(popup_df4ad88c65d84746945aa14e201f6fe3)
+        ;
+
+        
+    
+    
+            var marker_30e35b7a61714cb291cc15e570fdc68d = L.marker(
+                [42.352320828185405, -71.12418780449352],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_e641967b416f483aae045dad9102b0fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_30e35b7a61714cb291cc15e570fdc68d.setIcon(icon_e641967b416f483aae045dad9102b0fe);
+        
+    
+        var popup_f2324bb5dc9b423c8a85a65224e598cd = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_dff0b0803f984491ba270db0b6473f16 = $(`<div id="html_dff0b0803f984491ba270db0b6473f16" style="width: 100.0%; height: 100.0%;">Rhythm &#39;n Wraps, 1096 Commonwealth Avenue, Boston, MA 02134, https://www.rhythmnwraps.com/</div>`)[0];
+            popup_f2324bb5dc9b423c8a85a65224e598cd.setContent(html_dff0b0803f984491ba270db0b6473f16);
+        
+
+        marker_30e35b7a61714cb291cc15e570fdc68d.bindPopup(popup_f2324bb5dc9b423c8a85a65224e598cd)
+        ;
+
+        
+    
+    
+            var marker_e1d5600e8cd445e39ee3b98f5628662b = L.marker(
+                [42.07303381818182, -71.01872281818181],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_4178f51a9d1b4be8ae47b797e6e43e19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e1d5600e8cd445e39ee3b98f5628662b.setIcon(icon_4178f51a9d1b4be8ae47b797e6e43e19);
+        
+    
+        var popup_2187531d75754311a3103c101c1734b7 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_e46f40fb857c4611a0ca2e800ce6f634 = $(`<div id="html_e46f40fb857c4611a0ca2e800ce6f634" style="width: 100.0%; height: 100.0%;">JJ&#39;s Caffe, 610 N Main St., Brockton, MA 02301, https://www.jjscaffe.com/</div>`)[0];
+            popup_2187531d75754311a3103c101c1734b7.setContent(html_e46f40fb857c4611a0ca2e800ce6f634);
+        
+
+        marker_e1d5600e8cd445e39ee3b98f5628662b.bindPopup(popup_2187531d75754311a3103c101c1734b7)
+        ;
+
+        
+    
+    
+            var marker_ffc4696765d944e294d9d0871aa0994d = L.marker(
+                [46.3144754, 11.0480288],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_30fd347e86744cc2aaf6092311583dae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ffc4696765d944e294d9d0871aa0994d.setIcon(icon_30fd347e86744cc2aaf6092311583dae);
+        
+    
+        var popup_c184683cbea548748d618e9225df8876 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_784d27133aa543a3897b922ea165cfd6 = $(`<div id="html_784d27133aa543a3897b922ea165cfd6" style="width: 100.0%; height: 100.0%;">Luanda, nan, https://www.luandabrockton.com/</div>`)[0];
+            popup_c184683cbea548748d618e9225df8876.setContent(html_784d27133aa543a3897b922ea165cfd6);
+        
+
+        marker_ffc4696765d944e294d9d0871aa0994d.bindPopup(popup_c184683cbea548748d618e9225df8876)
+        ;
+
+        
+    
+    
+            var marker_d64b63e28b7e47b3a4aa9305b75dc2ef = L.marker(
+                [42.074819800142286, -71.04151337029444],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_b03185d928164a78b95040fb83751b9a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d64b63e28b7e47b3a4aa9305b75dc2ef.setIcon(icon_b03185d928164a78b95040fb83751b9a);
+        
+    
+        var popup_6dd946152bb34f4c85107bbe56bfac74 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_e1b0c0ba76f1499d8d6c7db94b3212e7 = $(`<div id="html_e1b0c0ba76f1499d8d6c7db94b3212e7" style="width: 100.0%; height: 100.0%;">Flava Jamaica, 21 Torrey St., Brockton, MA 00301, https://www.flavajamaicarestaurant.com/index.php</div>`)[0];
+            popup_6dd946152bb34f4c85107bbe56bfac74.setContent(html_e1b0c0ba76f1499d8d6c7db94b3212e7);
+        
+
+        marker_d64b63e28b7e47b3a4aa9305b75dc2ef.bindPopup(popup_6dd946152bb34f4c85107bbe56bfac74)
+        ;
+
+        
+    
+    
+            var marker_d7fdb7edc21b45bb99e0bf285e02d95d = L.marker(
+                [42.3664123, -71.1050773],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_6ae9f02a96c74692a68466dbb4326fe6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d7fdb7edc21b45bb99e0bf285e02d95d.setIcon(icon_6ae9f02a96c74692a68466dbb4326fe6);
+        
+    
+        var popup_c3cc8d090a134937bc96b6ac41068296 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_d3ff08f42d794847ba2531cf3340ba70 = $(`<div id="html_d3ff08f42d794847ba2531cf3340ba70" style="width: 100.0%; height: 100.0%;">Asmara Restaurant, 739 Massachusetts Ave, Cambridge, MA 02139, http://www.asmararestaurantboston.com/</div>`)[0];
+            popup_c3cc8d090a134937bc96b6ac41068296.setContent(html_d3ff08f42d794847ba2531cf3340ba70);
+        
+
+        marker_d7fdb7edc21b45bb99e0bf285e02d95d.bindPopup(popup_c3cc8d090a134937bc96b6ac41068296)
+        ;
+
+        
+    
+    
+            var marker_0c0b8a76fd524b519ddf68ec857e8704 = L.marker(
+                [42.3609802, -71.1009966],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_0e18027047bb4390887ded2849fd0050 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0c0b8a76fd524b519ddf68ec857e8704.setIcon(icon_0e18027047bb4390887ded2849fd0050);
+        
+    
+        var popup_5f28e4cf6f514a8ba18ba1f8b0dcb6db = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_f5d80ab55d184cb4849f6095b397c2c8 = $(`<div id="html_f5d80ab55d184cb4849f6095b397c2c8" style="width: 100.0%; height: 100.0%;">Bytes Cafe, 64 Sidney St #1, Cambridge, MA 02139</div>`)[0];
+            popup_5f28e4cf6f514a8ba18ba1f8b0dcb6db.setContent(html_f5d80ab55d184cb4849f6095b397c2c8);
+        
+
+        marker_0c0b8a76fd524b519ddf68ec857e8704.bindPopup(popup_5f28e4cf6f514a8ba18ba1f8b0dcb6db)
+        ;
+
+        
+    
+    
+            var marker_2406997d8eac4dd1a37f0a7794aa5dbc = L.marker(
+                [42.39672493333333, -71.12971633333333],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_3b0749612bdd463399012dc97becada6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2406997d8eac4dd1a37f0a7794aa5dbc.setIcon(icon_3b0749612bdd463399012dc97becada6);
+        
+    
+        var popup_c564a2f9f66140eda4bb045ee4f66d15 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_a75011358d364d3d9ed670a239db0345 = $(`<div id="html_a75011358d364d3d9ed670a239db0345" style="width: 100.0%; height: 100.0%;">Sheger Cafe and Ethiopian Restaurant LLC, 2376 Massachusetts Avenue, Cambridge, MA 02140, https://shegercafeandethiopianrestaraunt.business.site/</div>`)[0];
+            popup_c564a2f9f66140eda4bb045ee4f66d15.setContent(html_a75011358d364d3d9ed670a239db0345);
+        
+
+        marker_2406997d8eac4dd1a37f0a7794aa5dbc.bindPopup(popup_c564a2f9f66140eda4bb045ee4f66d15)
+        ;
+
+        
+    
+    
+            var marker_249e371c4b07451884a5ce2f66d41de8 = L.marker(
+                [42.366207, -71.095589],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_6429c7bd2c094949b5d2359306a55cf0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_249e371c4b07451884a5ce2f66d41de8.setIcon(icon_6429c7bd2c094949b5d2359306a55cf0);
+        
+    
+        var popup_1bf01f3e34b44d43b2ce7596da7b2944 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_f2d62cb264ee431aa57a7f66e1145467 = $(`<div id="html_f2d62cb264ee431aa57a7f66e1145467" style="width: 100.0%; height: 100.0%;">Izzy&#39;s Restaurant &amp; Sub Shop, 169 Harvard St, Cambridge, MA 02139, http://www.izzysrestaurantcambridge.com/</div>`)[0];
+            popup_1bf01f3e34b44d43b2ce7596da7b2944.setContent(html_f2d62cb264ee431aa57a7f66e1145467);
+        
+
+        marker_249e371c4b07451884a5ce2f66d41de8.bindPopup(popup_1bf01f3e34b44d43b2ce7596da7b2944)
+        ;
+
+        
+    
+    
+            var marker_3b888ca989ee4496b1e025bfad63c7f5 = L.marker(
+                [42.3841278, -71.1196974],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_03d9119c180c42b7b92dd59455211b3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3b888ca989ee4496b1e025bfad63c7f5.setIcon(icon_03d9119c180c42b7b92dd59455211b3c);
+        
+    
+        var popup_9751206905b140e7a50728e8ecaa24f4 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_7aaffc19b86c43a991e61a47dfc5bb5b = $(`<div id="html_7aaffc19b86c43a991e61a47dfc5bb5b" style="width: 100.0%; height: 100.0%;">Baraka Cafe, 1728 Massachusetts Avenue, CAMBRIDGE, MA 02138, https://www.barakacuisine.com/</div>`)[0];
+            popup_9751206905b140e7a50728e8ecaa24f4.setContent(html_7aaffc19b86c43a991e61a47dfc5bb5b);
+        
+
+        marker_3b888ca989ee4496b1e025bfad63c7f5.bindPopup(popup_9751206905b140e7a50728e8ecaa24f4)
+        ;
+
+        
+    
+    
+            var marker_ca9187c5760d4fc48600fcf7d294b883 = L.marker(
+                [42.3630585, -71.11162477738836],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_b11cab05b4a34838a3958b87737f5bb0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ca9187c5760d4fc48600fcf7d294b883.setIcon(icon_b11cab05b4a34838a3958b87737f5bb0);
+        
+    
+        var popup_69223ef506394c92baecb715add95fe4 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_8d60649eea29479698ad36ebbaebeef8 = $(`<div id="html_8d60649eea29479698ad36ebbaebeef8" style="width: 100.0%; height: 100.0%;">The Coast Café, 233 River Street, Cambridge, MA 02139, http://www.coastsoulcafe.com/</div>`)[0];
+            popup_69223ef506394c92baecb715add95fe4.setContent(html_8d60649eea29479698ad36ebbaebeef8);
+        
+
+        marker_ca9187c5760d4fc48600fcf7d294b883.bindPopup(popup_69223ef506394c92baecb715add95fe4)
+        ;
+
+        
+    
+    
+            var marker_6ca996a525ad4c5aa9ad7db0ba5ade3d = L.marker(
+                [42.372434399999996, -71.11910280000001],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_3429a0b139e04af2b5506aa1f96594d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6ca996a525ad4c5aa9ad7db0ba5ade3d.setIcon(icon_3429a0b139e04af2b5506aa1f96594d5);
+        
+    
+        var popup_b0bf93513cf34adfb12750ebac39e4aa = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_ad3af5490b4c4ff9ac794945284d7c69 = $(`<div id="html_ad3af5490b4c4ff9ac794945284d7c69" style="width: 100.0%; height: 100.0%;">Oggi Gourmet, 30 Dunster Street, Cambridge, MA 02138, http://www.oggigourmet.com/</div>`)[0];
+            popup_b0bf93513cf34adfb12750ebac39e4aa.setContent(html_ad3af5490b4c4ff9ac794945284d7c69);
+        
+
+        marker_6ca996a525ad4c5aa9ad7db0ba5ade3d.bindPopup(popup_b0bf93513cf34adfb12750ebac39e4aa)
+        ;
+
+        
+    
+    
+            var marker_16eb902652724e97a4f5ff91fac61c07 = L.marker(
+                [46.3144754, 11.0480288],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_4b0ae5b82c254464bd43459813ea0924 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_16eb902652724e97a4f5ff91fac61c07.setIcon(icon_4b0ae5b82c254464bd43459813ea0924);
+        
+    
+        var popup_c7d60e4b36214511a8909189a5b7c500 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_a22950086bb34e3bba4754705b0bf9c5 = $(`<div id="html_a22950086bb34e3bba4754705b0bf9c5" style="width: 100.0%; height: 100.0%;">The Little Crêpe Café, nan, https://www.littlecrepecafe.com/</div>`)[0];
+            popup_c7d60e4b36214511a8909189a5b7c500.setContent(html_a22950086bb34e3bba4754705b0bf9c5);
+        
+
+        marker_16eb902652724e97a4f5ff91fac61c07.bindPopup(popup_c7d60e4b36214511a8909189a5b7c500)
+        ;
+
+        
+    
+    
+            var marker_e3f0ed05a7514de8b7cc7f0fb589e298 = L.marker(
+                [42.29926643329872, -71.06033244762894],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_141bd153c72c4f149e31be6c78081640 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e3f0ed05a7514de8b7cc7f0fb589e298.setIcon(icon_141bd153c72c4f149e31be6c78081640);
+        
+    
+        var popup_6671c2ff8ef343e79b4e429be4a6131a = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_96134e7c368e48e8b2135f808b8cf5f2 = $(`<div id="html_96134e7c368e48e8b2135f808b8cf5f2" style="width: 100.0%; height: 100.0%;">Antonio&#39;s Pizzeria , 1508 Dorchester Ave, Dorchester, MA 02122</div>`)[0];
+            popup_6671c2ff8ef343e79b4e429be4a6131a.setContent(html_96134e7c368e48e8b2135f808b8cf5f2);
+        
+
+        marker_e3f0ed05a7514de8b7cc7f0fb589e298.bindPopup(popup_6671c2ff8ef343e79b4e429be4a6131a)
+        ;
+
+        
+    
+    
+            var marker_1d18cd02cb7d40e1955cd29788060b3f = L.marker(
+                [42.306916, -71.06641185714285],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_7faee85519a049dd87e56d3648dc7b59 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1d18cd02cb7d40e1955cd29788060b3f.setIcon(icon_7faee85519a049dd87e56d3648dc7b59);
+        
+    
+        var popup_cd0a53e82c0d4a45a7257ff4a4a3baf6 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_043986af6901409897c32c0f0a23f634 = $(`<div id="html_043986af6901409897c32c0f0a23f634" style="width: 100.0%; height: 100.0%;">Cesaria, 266 Bowdoin St, Dorchester, MA 02122, http://restaurantecesariadorchester.cafecityguide.website/</div>`)[0];
+            popup_cd0a53e82c0d4a45a7257ff4a4a3baf6.setContent(html_043986af6901409897c32c0f0a23f634);
+        
+
+        marker_1d18cd02cb7d40e1955cd29788060b3f.bindPopup(popup_cd0a53e82c0d4a45a7257ff4a4a3baf6)
+        ;
+
+        
+    
+    
+            var marker_18efee3af4b2460494cd329092726f1f = L.marker(
+                [42.281812333333335, -71.07129822222223],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_fcd42011ce43431085697c99ea4f1e02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_18efee3af4b2460494cd329092726f1f.setIcon(icon_fcd42011ce43431085697c99ea4f1e02);
+        
+    
+        var popup_adfd3631857546aa9654c6e659df7964 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_5550c2518ad1420f9b2887c449cc0a0b = $(`<div id="html_5550c2518ad1420f9b2887c449cc0a0b" style="width: 100.0%; height: 100.0%;">Irie Jamaican Style Restaurant, 855 Washington St, Dorchester Center, MA 02124, http://www.iriejamaicanstylerestaurant.net/</div>`)[0];
+            popup_adfd3631857546aa9654c6e659df7964.setContent(html_5550c2518ad1420f9b2887c449cc0a0b);
+        
+
+        marker_18efee3af4b2460494cd329092726f1f.bindPopup(popup_adfd3631857546aa9654c6e659df7964)
+        ;
+
+        
+    
+    
+            var marker_e2e72976e3c34f798871c8c377c381e7 = L.marker(
+                [42.36579555555556, -71.02918677777778],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_5588dda2b12b4da3bb35c27c046cae43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e2e72976e3c34f798871c8c377c381e7.setIcon(icon_5588dda2b12b4da3bb35c27c046cae43);
+        
+    
+        var popup_dc6c70ac4b20410f87a79ecd0fa4f777 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_61f1529f8f9d42e7bd7befc8c688c8b7 = $(`<div id="html_61f1529f8f9d42e7bd7befc8c688c8b7" style="width: 100.0%; height: 100.0%;">Tawakal Halal Cafe, 389 Maverick St, Boston, MA 02128</div>`)[0];
+            popup_dc6c70ac4b20410f87a79ecd0fa4f777.setContent(html_61f1529f8f9d42e7bd7befc8c688c8b7);
+        
+
+        marker_e2e72976e3c34f798871c8c377c381e7.bindPopup(popup_dc6c70ac4b20410f87a79ecd0fa4f777)
+        ;
+
+        
+    
+    
+            var marker_d3d3f4f7948c471e9ca60e83c4af926c = L.marker(
+                [42.3017344, -71.4012664],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_ec392728a95743fcb433c8f6e1063f50 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d3d3f4f7948c471e9ca60e83c4af926c.setIcon(icon_ec392728a95743fcb433c8f6e1063f50);
+        
+    
+        var popup_69ddc00dd2184992a9ae22c8198e5ee7 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_751010784a9c49f8a00e1fa8226ea1b4 = $(`<div id="html_751010784a9c49f8a00e1fa8226ea1b4" style="width: 100.0%; height: 100.0%;">Nzuko, 341 Cochituate Road, Framingham, MA 01701, http://nzukorestaurant.com/</div>`)[0];
+            popup_69ddc00dd2184992a9ae22c8198e5ee7.setContent(html_751010784a9c49f8a00e1fa8226ea1b4);
+        
+
+        marker_d3d3f4f7948c471e9ca60e83c4af926c.bindPopup(popup_69ddc00dd2184992a9ae22c8198e5ee7)
+        ;
+
+        
+    
+    
+            var marker_d8a5c3707890464d893e9f43b362bfff = L.marker(
+                [42.070858400000006, -71.42380990000001],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_aa14c8da45f342d682d958fe70ca4d21 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d8a5c3707890464d893e9f43b362bfff.setIcon(icon_aa14c8da45f342d682d958fe70ca4d21);
+        
+    
+        var popup_478b558f893b499e94241b02b09acc39 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_0a0cc4c9f13a40b891d916f1e78a7c45 = $(`<div id="html_0a0cc4c9f13a40b891d916f1e78a7c45" style="width: 100.0%; height: 100.0%;">67 Degrees Brewing, 158 Grove St, Franklin, MA  , https://www.67degreesbrewing.com/</div>`)[0];
+            popup_478b558f893b499e94241b02b09acc39.setContent(html_0a0cc4c9f13a40b891d916f1e78a7c45);
+        
+
+        marker_d8a5c3707890464d893e9f43b362bfff.bindPopup(popup_478b558f893b499e94241b02b09acc39)
+        ;
+
+        
+    
+    
+            var marker_5f246adc40b3432a93e72f437dafee0e = L.marker(
+                [42.3094644, -71.1043642],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_744ec308fc4343679a274a2ab2fc8c71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5f246adc40b3432a93e72f437dafee0e.setIcon(icon_744ec308fc4343679a274a2ab2fc8c71);
+        
+    
+        var popup_26e48cbbd5ad45ba8e98d50798e5eae9 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_e56c18d83f7b4adba202d00adb08b4c6 = $(`<div id="html_e56c18d83f7b4adba202d00adb08b4c6" style="width: 100.0%; height: 100.0%;">Exodus Bagels, 3346 Washington St, Boston, MA 02130, http://www.exodusbagels.com/</div>`)[0];
+            popup_26e48cbbd5ad45ba8e98d50798e5eae9.setContent(html_e56c18d83f7b4adba202d00adb08b4c6);
+        
+
+        marker_5f246adc40b3432a93e72f437dafee0e.bindPopup(popup_26e48cbbd5ad45ba8e98d50798e5eae9)
+        ;
+
+        
+    
+    
+            var marker_bf351e821b1241f49a1edfa11ed5f1e8 = L.marker(
+                [42.3047401, -71.1247301],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_23cbd90c36b74237a0fad56a06075023 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bf351e821b1241f49a1edfa11ed5f1e8.setIcon(icon_23cbd90c36b74237a0fad56a06075023);
+        
+    
+        var popup_d117e5864bf4484194bfdac34bba8ec2 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_2b6118a451974d1796294c1661b44a98 = $(`<div id="html_2b6118a451974d1796294c1661b44a98" style="width: 100.0%; height: 100.0%;">Blue Nile Restaurant, 389 Centre St. Jamaica Plain, nan, MA 02130, http://bluenilejp.com/</div>`)[0];
+            popup_d117e5864bf4484194bfdac34bba8ec2.setContent(html_2b6118a451974d1796294c1661b44a98);
+        
+
+        marker_bf351e821b1241f49a1edfa11ed5f1e8.bindPopup(popup_d117e5864bf4484194bfdac34bba8ec2)
+        ;
+
+        
+    
+    
+            var marker_b4e77b9830bd44f0844170c6a3fd9e81 = L.marker(
+                [42.3228145, -71.101827],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_beae269b06f047ec8ac4801ac1aebf87 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b4e77b9830bd44f0844170c6a3fd9e81.setIcon(icon_beae269b06f047ec8ac4801ac1aebf87);
+        
+    
+        var popup_3c69945dcb204f32bae646d9aa52bb4c = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_a982fb1166de45debbf4b4dddab7f452 = $(`<div id="html_a982fb1166de45debbf4b4dddab7f452" style="width: 100.0%; height: 100.0%;">Yelu&#39;s, 284 Centre St, Jamaica Plain, MA 02130</div>`)[0];
+            popup_3c69945dcb204f32bae646d9aa52bb4c.setContent(html_a982fb1166de45debbf4b4dddab7f452);
+        
+
+        marker_b4e77b9830bd44f0844170c6a3fd9e81.bindPopup(popup_3c69945dcb204f32bae646d9aa52bb4c)
+        ;
+
+        
+    
+    
+            var marker_3176663e53144df797219304c7034237 = L.marker(
+                [42.321376, -71.110085],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_da8c999f7d7d41df8a96846a8999a9fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3176663e53144df797219304c7034237.setIcon(icon_da8c999f7d7d41df8a96846a8999a9fc);
+        
+    
+        var popup_0bc361559d3d4140ad7bfb10fe92ef25 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_544c3f345e914be0bfd432c8fb22d3ba = $(`<div id="html_544c3f345e914be0bfd432c8fb22d3ba" style="width: 100.0%; height: 100.0%;">Pikalo Restaurant, 378 Centre St, Boston, MA 02130, https://www.yelp.com/biz/pikalo-jamaica-plain-2</div>`)[0];
+            popup_0bc361559d3d4140ad7bfb10fe92ef25.setContent(html_544c3f345e914be0bfd432c8fb22d3ba);
+        
+
+        marker_3176663e53144df797219304c7034237.bindPopup(popup_0bc361559d3d4140ad7bfb10fe92ef25)
+        ;
+
+        
+    
+    
+            var marker_1fcae557ba394639bd8ccd836fb56fff = L.marker(
+                [42.301481083332305, -71.1122889166677],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_61404101db2f4ecbaf1f3804c92d913e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1fcae557ba394639bd8ccd836fb56fff.setIcon(icon_61404101db2f4ecbaf1f3804c92d913e);
+        
+    
+        var popup_2446fdefb2854281af83ed4f9310f679 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_0a750f951e7a416bb96cdf80407edfcb = $(`<div id="html_0a750f951e7a416bb96cdf80407edfcb" style="width: 100.0%; height: 100.0%;">Imani Massage, 3684 Washington Street, Boston, MA 02130, https://www.imanimassage.com/</div>`)[0];
+            popup_2446fdefb2854281af83ed4f9310f679.setContent(html_0a750f951e7a416bb96cdf80407edfcb);
+        
+
+        marker_1fcae557ba394639bd8ccd836fb56fff.bindPopup(popup_2446fdefb2854281af83ed4f9310f679)
+        ;
+
+        
+    
+    
+            var marker_da654135515d4e1686980fb97b6b493b = L.marker(
+                [42.3047401, -71.1247301],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_71005a210fbf4732870d0cd05634d7ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_da654135515d4e1686980fb97b6b493b.setIcon(icon_71005a210fbf4732870d0cd05634d7ae);
+        
+    
+        var popup_3d20d10d4d3d43039325f769e7184ea2 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_3f60090ee1bd4d89b83b56a8850e70bc = $(`<div id="html_3f60090ee1bd4d89b83b56a8850e70bc" style="width: 100.0%; height: 100.0%;">Ethiopian Cafe, 377 Centre St., Jamaica Plain, MA 02130, http://ethiopiancafe.business.site/</div>`)[0];
+            popup_3d20d10d4d3d43039325f769e7184ea2.setContent(html_3f60090ee1bd4d89b83b56a8850e70bc);
+        
+
+        marker_da654135515d4e1686980fb97b6b493b.bindPopup(popup_3d20d10d4d3d43039325f769e7184ea2)
+        ;
+
+        
+    
+    
+            var marker_eb4db36796f040be8479c6f1eaa5f51d = L.marker(
+                [42.3229042, -71.0992479],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_5bb92cbe84ce485c94e2318d9dc56c58 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_eb4db36796f040be8479c6f1eaa5f51d.setIcon(icon_5bb92cbe84ce485c94e2318d9dc56c58);
+        
+    
+        var popup_e8562f6be4114467a9b14ea806981fb9 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_b81e8d7277ef4b60b8baa83f3de122a5 = $(`<div id="html_b81e8d7277ef4b60b8baa83f3de122a5" style="width: 100.0%; height: 100.0%;">Jamaica Mi Hungry, 225 Centre St, Boston, MA 02130, https://www.jamaicamihungry.com/</div>`)[0];
+            popup_e8562f6be4114467a9b14ea806981fb9.setContent(html_b81e8d7277ef4b60b8baa83f3de122a5);
+        
+
+        marker_eb4db36796f040be8479c6f1eaa5f51d.bindPopup(popup_e8562f6be4114467a9b14ea806981fb9)
+        ;
+
+        
+    
+    
+            var marker_1a58bffa82be47c19e9ba014c76d26c4 = L.marker(
+                [42.460929, -70.95006],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_35c4f5bbe47847efa11fb50db24f69b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1a58bffa82be47c19e9ba014c76d26c4.setIcon(icon_35c4f5bbe47847efa11fb50db24f69b2);
+        
+    
+        var popup_45ebd585fe7b4de0a9d3bf732333aaad = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_589e44608a824abe9d334a46bfe6a180 = $(`<div id="html_589e44608a824abe9d334a46bfe6a180" style="width: 100.0%; height: 100.0%;">Jamaica&#39;s Flavor , 121 Pleasant St, Lynn, MA 01901, https://jamaicas-flavor.business.site/</div>`)[0];
+            popup_45ebd585fe7b4de0a9d3bf732333aaad.setContent(html_589e44608a824abe9d334a46bfe6a180);
+        
+
+        marker_1a58bffa82be47c19e9ba014c76d26c4.bindPopup(popup_45ebd585fe7b4de0a9d3bf732333aaad)
+        ;
+
+        
+    
+    
+            var marker_1d3752d5bd4c4b37b729e0b1383f355e = L.marker(
+                [42.4679876, -70.95864440657522],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_c36f354db8db41b9a82ea9436b35e5d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1d3752d5bd4c4b37b729e0b1383f355e.setIcon(icon_c36f354db8db41b9a82ea9436b35e5d7);
+        
+    
+        var popup_7bc910e95ca946378ba7b2cc17b066a2 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_f5d2017aed084e45a425cc9eb9b294fe = $(`<div id="html_f5d2017aed084e45a425cc9eb9b294fe" style="width: 100.0%; height: 100.0%;">Rite Spice Caribbean, 532 Western Ave, Lynn, MA 01904</div>`)[0];
+            popup_7bc910e95ca946378ba7b2cc17b066a2.setContent(html_f5d2017aed084e45a425cc9eb9b294fe);
+        
+
+        marker_1d3752d5bd4c4b37b729e0b1383f355e.bindPopup(popup_7bc910e95ca946378ba7b2cc17b066a2)
+        ;
+
+        
+    
+    
+            var marker_19e470d932cd48878115ae6aa5b49d29 = L.marker(
+                [42.4238427, -71.0660252],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_cf727ccea86449d4870e59a7cce912a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_19e470d932cd48878115ae6aa5b49d29.setIcon(icon_cf727ccea86449d4870e59a7cce912a5);
+        
+    
+        var popup_c0c6d89c94c746b991f13508fe2016f2 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_f1d7455e558946a7a65388bbb1576cff = $(`<div id="html_f1d7455e558946a7a65388bbb1576cff" style="width: 100.0%; height: 100.0%;">Crazy Good Kitchen, 906 Eastern Ave, Malden, MA 02148, https://www.crazygoodkitchen.com</div>`)[0];
+            popup_c0c6d89c94c746b991f13508fe2016f2.setContent(html_f1d7455e558946a7a65388bbb1576cff);
+        
+
+        marker_19e470d932cd48878115ae6aa5b49d29.bindPopup(popup_c0c6d89c94c746b991f13508fe2016f2)
+        ;
+
+        
+    
+    
+            var marker_89d3182bc5ff43a196ec9c6eb8033ec9 = L.marker(
+                [42.277580977411475, -71.09324400118888],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_126cebc3c80a4d319286d96d97db9735 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_89d3182bc5ff43a196ec9c6eb8033ec9.setIcon(icon_126cebc3c80a4d319286d96d97db9735);
+        
+    
+        var popup_d27a9af717d841c38692bbf3ccdb3f0f = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_aa043f47163a4bb2aca253e2f1d3a1df = $(`<div id="html_aa043f47163a4bb2aca253e2f1d3a1df" style="width: 100.0%; height: 100.0%;">Safari African Food, 1336 Blue Hill Avenue, Mattapan, MA 02126, http://places.singleplatform.com/safari-african-restaurant/menu?ref=google</div>`)[0];
+            popup_d27a9af717d841c38692bbf3ccdb3f0f.setContent(html_aa043f47163a4bb2aca253e2f1d3a1df);
+        
+
+        marker_89d3182bc5ff43a196ec9c6eb8033ec9.bindPopup(popup_d27a9af717d841c38692bbf3ccdb3f0f)
+        ;
+
+        
+    
+    
+            var marker_f1aae90371f64e89b0b6a5c143a125fe = L.marker(
+                [42.280662409839394, -71.08316080171028],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_74c5f2e198d449a1a03bbdb1378e64aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f1aae90371f64e89b0b6a5c143a125fe.setIcon(icon_74c5f2e198d449a1a03bbdb1378e64aa);
+        
+    
+        var popup_b99c6e556f1149f4a596db9a65b860a4 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_3d1cd94612e94b37ac47e57c7ee5e2c9 = $(`<div id="html_3d1cd94612e94b37ac47e57c7ee5e2c9" style="width: 100.0%; height: 100.0%;">Prestige Cuisine LLC, 924 Morton St, Boston, MA 02126</div>`)[0];
+            popup_b99c6e556f1149f4a596db9a65b860a4.setContent(html_3d1cd94612e94b37ac47e57c7ee5e2c9);
+        
+
+        marker_f1aae90371f64e89b0b6a5c143a125fe.bindPopup(popup_b99c6e556f1149f4a596db9a65b860a4)
+        ;
+
+        
+    
+    
+            var marker_bc3fe302ebe04f8c8572efa7d5826087 = L.marker(
+                [42.278585, -71.079822],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_3462778a6ea64d1488c7cb36026111f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bc3fe302ebe04f8c8572efa7d5826087.setIcon(icon_3462778a6ea64d1488c7cb36026111f8);
+        
+    
+        var popup_7ddccda715294d319439a97c1c1d1558 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_9ea6b2b278ff46f4b4bee8441aee3317 = $(`<div id="html_9ea6b2b278ff46f4b4bee8441aee3317" style="width: 100.0%; height: 100.0%;">Pit Stop Barbecue, 888 Morton St A, Mattapan, MA 02126, http://www.pitstopbarbecue.com/</div>`)[0];
+            popup_7ddccda715294d319439a97c1c1d1558.setContent(html_9ea6b2b278ff46f4b4bee8441aee3317);
+        
+
+        marker_bc3fe302ebe04f8c8572efa7d5826087.bindPopup(popup_7ddccda715294d319439a97c1c1d1558)
+        ;
+
+        
+    
+    
+            var marker_0df32b3be5214896902fa250faea2d30 = L.marker(
+                [42.271709900000005, -71.09540780532785],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_6b45cd07d1a4443d8b649703ca258538 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0df32b3be5214896902fa250faea2d30.setIcon(icon_6b45cd07d1a4443d8b649703ca258538);
+        
+    
+        var popup_c4b6537e80924c839de794a979b60b8e = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_5e5910d9e990445c9c28076932160fb5 = $(`<div id="html_5e5910d9e990445c9c28076932160fb5" style="width: 100.0%; height: 100.0%;">Ali&#39;s Roti Restaurant, 1188 Blue Hill Avenue, Mattapan, MA 02126</div>`)[0];
+            popup_c4b6537e80924c839de794a979b60b8e.setContent(html_5e5910d9e990445c9c28076932160fb5);
+        
+
+        marker_0df32b3be5214896902fa250faea2d30.bindPopup(popup_c4b6537e80924c839de794a979b60b8e)
+        ;
+
+        
+    
+    
+            var marker_7c8b95323a434373a996182b99644815 = L.marker(
+                [42.101584, -71.503715],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_0222deccc16d40748b2a58cff0a8c8cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7c8b95323a434373a996182b99644815.setIcon(icon_0222deccc16d40748b2a58cff0a8c8cd);
+        
+    
+        var popup_bfcb14411dd64af3a164ec7ace308622 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_c714ba3c39fa44198faf82a4ba53d1cb = $(`<div id="html_c714ba3c39fa44198faf82a4ba53d1cb" style="width: 100.0%; height: 100.0%;">Larry Joe&#39;s New England FirePit, 30 Cape Rd, Mendon, MA 01756</div>`)[0];
+            popup_bfcb14411dd64af3a164ec7ace308622.setContent(html_c714ba3c39fa44198faf82a4ba53d1cb);
+        
+
+        marker_7c8b95323a434373a996182b99644815.bindPopup(popup_bfcb14411dd64af3a164ec7ace308622)
+        ;
+
+        
+    
+    
+            var marker_b2cbde139ebc4e1c9172cdad73c154c3 = L.marker(
+                [42.28152835, -71.23642385051701],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_49c7044bd28e40a583fb646275049195 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b2cbde139ebc4e1c9172cdad73c154c3.setIcon(icon_49c7044bd28e40a583fb646275049195);
+        
+    
+        var popup_0b2338bbe9204b15b2f95a45385acbba = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_72beb26811954ffbb46d50341e4173db = $(`<div id="html_72beb26811954ffbb46d50341e4173db" style="width: 100.0%; height: 100.0%;">French Press Bakery &amp; Cafe, 74 Chapel St, Needham, MA 02492, https://www.frenchpressbakery.com/</div>`)[0];
+            popup_0b2338bbe9204b15b2f95a45385acbba.setContent(html_72beb26811954ffbb46d50341e4173db);
+        
+
+        marker_b2cbde139ebc4e1c9172cdad73c154c3.bindPopup(popup_0b2338bbe9204b15b2f95a45385acbba)
+        ;
+
+        
+    
+    
+            var marker_b30ed496571b4c208e3ef826bdf8a23c = L.marker(
+                [42.042460199999994, -70.839430795109],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_de7bc2013dba401abebfa3e9ef12b26f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b30ed496571b4c208e3ef826bdf8a23c.setIcon(icon_de7bc2013dba401abebfa3e9ef12b26f);
+        
+    
+        var popup_8477e9f5efa145e49b783367bd89f016 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_7c51458fb17347ec8866c757a808d129 = $(`<div id="html_7c51458fb17347ec8866c757a808d129" style="width: 100.0%; height: 100.0%;">Gather, 35 School St, Pembroke, MA 02359, https://gatherandeat.com/</div>`)[0];
+            popup_8477e9f5efa145e49b783367bd89f016.setContent(html_7c51458fb17347ec8866c757a808d129);
+        
+
+        marker_b30ed496571b4c208e3ef826bdf8a23c.bindPopup(popup_8477e9f5efa145e49b783367bd89f016)
+        ;
+
+        
+    
+    
+            var marker_d81975c1bbec4e6d8cda39b15de0a238 = L.marker(
+                [42.328464499999995, -71.0821485],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_6e72e46aea7d4b31ad67261e5c336128 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d81975c1bbec4e6d8cda39b15de0a238.setIcon(icon_6e72e46aea7d4b31ad67261e5c336128);
+        
+    
+        var popup_d9b65c43fddb460fa9ba755c563e414d = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_acd912cd84654edc9ab461de6b2b03cb = $(`<div id="html_acd912cd84654edc9ab461de6b2b03cb" style="width: 100.0%; height: 100.0%;">Suya Joint, 185 Dudley St, Boston, MA 02119, https://www.ordersuyajoint.com/#/</div>`)[0];
+            popup_d9b65c43fddb460fa9ba755c563e414d.setContent(html_acd912cd84654edc9ab461de6b2b03cb);
+        
+
+        marker_d81975c1bbec4e6d8cda39b15de0a238.bindPopup(popup_d9b65c43fddb460fa9ba755c563e414d)
+        ;
+
+        
+    
+    
+            var marker_e9a29b2907e04c17905081be9e73adf3 = L.marker(
+                [46.3144754, 11.0480288],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_a2073d63a618445692d6d7ff4a1cc912 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e9a29b2907e04c17905081be9e73adf3.setIcon(icon_a2073d63a618445692d6d7ff4a1cc912);
+        
+    
+        var popup_4d9baad3e16b4c099289a231b76133c3 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_d2319e9974254d80a7c14de5faed9090 = $(`<div id="html_d2319e9974254d80a7c14de5faed9090" style="width: 100.0%; height: 100.0%;">Bintimani Restaurant, nan, http://bintimani.com</div>`)[0];
+            popup_4d9baad3e16b4c099289a231b76133c3.setContent(html_d2319e9974254d80a7c14de5faed9090);
+        
+
+        marker_e9a29b2907e04c17905081be9e73adf3.bindPopup(popup_4d9baad3e16b4c099289a231b76133c3)
+        ;
+
+        
+    
+    
+            var marker_8e3ea305b093482d9cc1d8b1ff519a24 = L.marker(
+                [42.3916828, -71.09225049221519],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_fc378ed5b75749b09d494df43bd12cf7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8e3ea305b093482d9cc1d8b1ff519a24.setIcon(icon_fc378ed5b75749b09d494df43bd12cf7);
+        
+    
+        var popup_c6920a35a8e14cb2aad5aaa20b689c75 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_8b4e89736ecc4a71b9a90313ac016d6a = $(`<div id="html_8b4e89736ecc4a71b9a90313ac016d6a" style="width: 100.0%; height: 100.0%;">Pikliz International Kitchen, 288 Broadway, Somerville, MA 02145, http://www.piklizint.com/</div>`)[0];
+            popup_c6920a35a8e14cb2aad5aaa20b689c75.setContent(html_8b4e89736ecc4a71b9a90313ac016d6a);
+        
+
+        marker_8e3ea305b093482d9cc1d8b1ff519a24.bindPopup(popup_c6920a35a8e14cb2aad5aaa20b689c75)
+        ;
+
+        
+    
+    
+            var marker_9467d05a5fe743149909e1275921c5e6 = L.marker(
+                [42.393662104166665, -71.08344629166666],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_760c66a5f79a4dc29f6fbc7275759afd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9467d05a5fe743149909e1275921c5e6.setIcon(icon_760c66a5f79a4dc29f6fbc7275759afd);
+        
+    
+        var popup_1f6f33d5347a4ad398b9c1e6056a0b85 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_a55e099e6aa2487090573807a12a2c6b = $(`<div id="html_a55e099e6aa2487090573807a12a2c6b" style="width: 100.0%; height: 100.0%;">Sunrise Caribbean Cuisine, 76 Middlesex Ave, Somerville, MA 02145, http://www.sunrisecuisine.net/</div>`)[0];
+            popup_1f6f33d5347a4ad398b9c1e6056a0b85.setContent(html_a55e099e6aa2487090573807a12a2c6b);
+        
+
+        marker_9467d05a5fe743149909e1275921c5e6.bindPopup(popup_1f6f33d5347a4ad398b9c1e6056a0b85)
+        ;
+
+        
+    
+    
+            var marker_5790b8444c434a4882b52842af49cd8f = L.marker(
+                [42.383897649999994, -71.10872930667514],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_625219ae79584d828d2034afeb65aca3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5790b8444c434a4882b52842af49cd8f.setIcon(icon_625219ae79584d828d2034afeb65aca3);
+        
+    
+        var popup_b470987b53304e44b7322ce022d7b315 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_532a0efba97c43dc9f2767bda80fe0af = $(`<div id="html_532a0efba97c43dc9f2767bda80fe0af" style="width: 100.0%; height: 100.0%;">Morroccan Hospitality, 585 Somerville Ave, Somerville, MA 02143, http://www.themoroccanhospitality.com</div>`)[0];
+            popup_b470987b53304e44b7322ce022d7b315.setContent(html_532a0efba97c43dc9f2767bda80fe0af);
+        
+
+        marker_5790b8444c434a4882b52842af49cd8f.bindPopup(popup_b470987b53304e44b7322ce022d7b315)
+        ;
+
+        
+    
+    
+            var marker_61eb390716b14686b753994649a6804d = L.marker(
+                [42.38935444988811, -71.08704529854712],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_7ef3b8df51ae48c29066c5fedd159dfa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_61eb390716b14686b753994649a6804d.setIcon(icon_7ef3b8df51ae48c29066c5fedd159dfa);
+        
+    
+        var popup_9076e1660da044a696f3fbcae2c12040 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_78d2e2cce51e431d86ce79674b3f4acf = $(`<div id="html_78d2e2cce51e431d86ce79674b3f4acf" style="width: 100.0%; height: 100.0%;">Fasika Ethiopian Restaurant, 145 Broadway, Somerville, MA 02145, https://www.fasikaethiopian.com/</div>`)[0];
+            popup_9076e1660da044a696f3fbcae2c12040.setContent(html_78d2e2cce51e431d86ce79674b3f4acf);
+        
+
+        marker_61eb390716b14686b753994649a6804d.bindPopup(popup_9076e1660da044a696f3fbcae2c12040)
+        ;
+
+        
+    
+    
+            var marker_31d4fbeeab944a43816808c9b8381d94 = L.marker(
+                [42.34190142268061, -71.0726427687514],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_c4e8b8ab79354629a66dc45513d5fa43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_31d4fbeeab944a43816808c9b8381d94.setIcon(icon_c4e8b8ab79354629a66dc45513d5fa43);
+        
+    
+        var popup_188dbbab762349bca74b4d866f58e2e2 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_3fdbd8a4121140f088bd02884746ee43 = $(`<div id="html_3fdbd8a4121140f088bd02884746ee43" style="width: 100.0%; height: 100.0%;">Vejigantes Restaurant, 57 W Dedham St, Boston, MA 02118, http://www.vejigantesrestaurant.com/</div>`)[0];
+            popup_188dbbab762349bca74b4d866f58e2e2.setContent(html_3fdbd8a4121140f088bd02884746ee43);
+        
+
+        marker_31d4fbeeab944a43816808c9b8381d94.bindPopup(popup_188dbbab762349bca74b4d866f58e2e2)
+        ;
+
+        
+    
+    
+            var marker_8ca629792fa0426eb1acf8b9a0478112 = L.marker(
+                [46.3144754, 11.0480288],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_88b1318efd7e469aa0b8a8fc003f7d82 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8ca629792fa0426eb1acf8b9a0478112.setIcon(icon_88b1318efd7e469aa0b8a8fc003f7d82);
+        
+    
+        var popup_4224d58931ba4620903375033712b2cd = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_dcfbbbf45ec5465ca039040e9e94ce48 = $(`<div id="html_dcfbbbf45ec5465ca039040e9e94ce48" style="width: 100.0%; height: 100.0%;">White Lion Brewery , nan, https://whitelionbrewing.com/</div>`)[0];
+            popup_4224d58931ba4620903375033712b2cd.setContent(html_dcfbbbf45ec5465ca039040e9e94ce48);
+        
+
+        marker_8ca629792fa0426eb1acf8b9a0478112.bindPopup(popup_4224d58931ba4620903375033712b2cd)
+        ;
+
+        
+    
+    
+            var marker_119f7044599446d79b8678e12d62f554 = L.marker(
+                [42.272472, -71.789513],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_c71d9a52a7e64ebebd2586dd74d4fbfa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_119f7044599446d79b8678e12d62f554.setIcon(icon_c71d9a52a7e64ebebd2586dd74d4fbfa);
+        
+    
+        var popup_80fab2fde3c349d392a0ffd0f3ee9bae = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_cf372285642b4fecbfe8eebbd101a58c = $(`<div id="html_cf372285642b4fecbfe8eebbd101a58c" style="width: 100.0%; height: 100.0%;">Belmont Vegetarian, 157 Belmont St, Worcester, MA 01605, https://www.belmontvegetarian.com/index.html</div>`)[0];
+            popup_80fab2fde3c349d392a0ffd0f3ee9bae.setContent(html_cf372285642b4fecbfe8eebbd101a58c);
+        
+
+        marker_119f7044599446d79b8678e12d62f554.bindPopup(popup_80fab2fde3c349d392a0ffd0f3ee9bae)
+        ;
+
+        
+    
+    
+            var marker_715d476cacf048629bb2e1fcd11e929d = L.marker(
+                [46.3144754, 11.0480288],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_3c7a09451fc14e57a61975f156e29a90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_715d476cacf048629bb2e1fcd11e929d.setIcon(icon_3c7a09451fc14e57a61975f156e29a90);
+        
+    
+        var popup_4ead8cf93a924f1485b2c045e6322728 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_305e868606d14232bac7e258be7b4248 = $(`<div id="html_305e868606d14232bac7e258be7b4248" style="width: 100.0%; height: 100.0%;">Fatima&#39;s Cafe, nan, http://www.fatimascafe.com/</div>`)[0];
+            popup_4ead8cf93a924f1485b2c045e6322728.setContent(html_305e868606d14232bac7e258be7b4248);
+        
+
+        marker_715d476cacf048629bb2e1fcd11e929d.bindPopup(popup_4ead8cf93a924f1485b2c045e6322728)
+        ;
+
+        
+    
+    
+            var marker_48bd2cb4f9cb4559b751e3019f2db07a = L.marker(
+                [42.23840575, -71.79798449117754],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_8a355fdbe6bb4018881767777f9801d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_48bd2cb4f9cb4559b751e3019f2db07a.setIcon(icon_8a355fdbe6bb4018881767777f9801d0);
+        
+    
+        var popup_54e8f29e07a94617943f13e8791f3900 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_b164caeceb3b45a18c8cd1292960f6a2 = $(`<div id="html_b164caeceb3b45a18c8cd1292960f6a2" style="width: 100.0%; height: 100.0%;">Anokye Krom, 687 Millbury St, Worcester, MA 01607, https://www.doordash.com/store/anokye-krom-african-american-restaurant-worcester-305324/en-US</div>`)[0];
+            popup_54e8f29e07a94617943f13e8791f3900.setContent(html_b164caeceb3b45a18c8cd1292960f6a2);
+        
+
+        marker_48bd2cb4f9cb4559b751e3019f2db07a.bindPopup(popup_54e8f29e07a94617943f13e8791f3900)
+        ;
+
+        
+    
+    
+            var marker_f9d603aad26f471b87f6d6b712121add = L.marker(
+                [42.28889652854537, -71.07127284208927],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_24d5385681f74230842d905660bfef77 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "iconSize": [27, 27], "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f9d603aad26f471b87f6d6b712121add.setIcon(icon_24d5385681f74230842d905660bfef77);
+        
+    
+        var popup_8e48fcfb82b0496cbc0e0af804b0771e = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_ed538840c7784d5fa262dd768c036557 = $(`<div id="html_ed538840c7784d5fa262dd768c036557" style="width: 100.0%; height: 100.0%;">Next Step Soul Food Café, 657 Washington St, Boston, MA 02124, https://www.yelp.com/biz/next-step-soul-food-cafe-boston</div>`)[0];
+            popup_8e48fcfb82b0496cbc0e0af804b0771e.setContent(html_ed538840c7784d5fa262dd768c036557);
+        
+
+        marker_f9d603aad26f471b87f6d6b712121add.bindPopup(popup_8e48fcfb82b0496cbc0e0af804b0771e)
+        ;
+
+        
+    
+    
+            var marker_10b66de274a0411fa6f5294e1cf469bb = L.marker(
+                [42.42445746064315, -71.18353256501587],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_81240f8d518c4a47a14a4a1ff3abd94a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "iconSize": [27, 27], "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_10b66de274a0411fa6f5294e1cf469bb.setIcon(icon_81240f8d518c4a47a14a4a1ff3abd94a);
+        
+    
+        var popup_6c21ce9475a644779f0352673b95f9e3 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_31e80e1ea6fe4100b1f1a07869e4b813 = $(`<div id="html_31e80e1ea6fe4100b1f1a07869e4b813" style="width: 100.0%; height: 100.0%;">RepHAIRations, 1339 Massachusetts Avenue Arlington, MA    02476, https://www.rephairations.com/</div>`)[0];
+            popup_6c21ce9475a644779f0352673b95f9e3.setContent(html_31e80e1ea6fe4100b1f1a07869e4b813);
+        
+
+        marker_10b66de274a0411fa6f5294e1cf469bb.bindPopup(popup_6c21ce9475a644779f0352673b95f9e3)
+        ;
+
+        
+    
+    
+            var marker_77709b564ba24ad5a029592cdafa3dce = L.marker(
+                [42.4222626, -71.1731739],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_717dd53dcb034198a12b896d3b51d4d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "iconSize": [27, 27], "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_77709b564ba24ad5a029592cdafa3dce.setIcon(icon_717dd53dcb034198a12b896d3b51d4d8);
+        
+    
+        var popup_f03c6245754548aca47bbb08fe1c8785 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_3744f1b525f04a51a51588d350c57d94 = $(`<div id="html_3744f1b525f04a51a51588d350c57d94" style="width: 100.0%; height: 100.0%;">Mamadou&#39; Artisan Bakery, 677 Massachusetts Ave Arlington, MA 02476 Arlington Center, https://www.yelp.com/biz/mamadous-artisan-bakery-arlington</div>`)[0];
+            popup_f03c6245754548aca47bbb08fe1c8785.setContent(html_3744f1b525f04a51a51588d350c57d94);
+        
+
+        marker_77709b564ba24ad5a029592cdafa3dce.bindPopup(popup_f03c6245754548aca47bbb08fe1c8785)
+        ;
+
+        
+    
+    
+            var marker_283fcb5f4c0949ab8eedf65152bc15d6 = L.marker(
+                [42.357021228571426, -71.05982048571428],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_b7c229830d3949d19f0577f0a81b1faf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "iconSize": [27, 27], "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_283fcb5f4c0949ab8eedf65152bc15d6.setIcon(icon_b7c229830d3949d19f0577f0a81b1faf);
+        
+    
+        var popup_a09d5cf4e32845499c896eb28f8e5675 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_056f05f7884a45f8b4ca5487a2ee7072 = $(`<div id="html_056f05f7884a45f8b4ca5487a2ee7072" style="width: 100.0%; height: 100.0%;">Bebe Mursalin, 32 Province Street, Boston, MA 02108, https://bebemursalin.com/</div>`)[0];
+            popup_a09d5cf4e32845499c896eb28f8e5675.setContent(html_056f05f7884a45f8b4ca5487a2ee7072);
+        
+
+        marker_283fcb5f4c0949ab8eedf65152bc15d6.bindPopup(popup_a09d5cf4e32845499c896eb28f8e5675)
+        ;
+
+        
+    
+    
+            var marker_cf0dc529467a4186aed632ab2c330d4b = L.marker(
+                [42.356437, -71.05923179999999],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_9572f239ec0447dbb670903a56c05144 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "iconSize": [27, 27], "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_cf0dc529467a4186aed632ab2c330d4b.setIcon(icon_9572f239ec0447dbb670903a56c05144);
+        
+    
+        var popup_7e4fabb3892f4bb1a058b26f30cce2b7 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_0ca01f05a2bf413a9c9793e86a8a0bd1 = $(`<div id="html_0ca01f05a2bf413a9c9793e86a8a0bd1" style="width: 100.0%; height: 100.0%;">Boston Beauty Bar, 388 Washington St, Boston, MA 02108, http://bostonbeautybar.as.me/</div>`)[0];
+            popup_7e4fabb3892f4bb1a058b26f30cce2b7.setContent(html_0ca01f05a2bf413a9c9793e86a8a0bd1);
+        
+
+        marker_cf0dc529467a4186aed632ab2c330d4b.bindPopup(popup_7e4fabb3892f4bb1a058b26f30cce2b7)
+        ;
+
+        
+    
+    
+            var marker_6d13239632854c0dbaf9a41918f1f954 = L.marker(
+                [42.3514905, -71.0729046],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_289cea7736fa4b29a09f1c3420f81ab2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "iconSize": [27, 27], "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_6d13239632854c0dbaf9a41918f1f954.setIcon(icon_289cea7736fa4b29a09f1c3420f81ab2);
+        
+    
+        var popup_61e5042714504a32b3c6e8583dabfc91 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_9735308d77b04e8dbea396c2b0e74dd8 = $(`<div id="html_9735308d77b04e8dbea396c2b0e74dd8" style="width: 100.0%; height: 100.0%;">Hair Sessions , 437 Boylston St, Boston, MA 02116, https://hairsessionsinc.com/</div>`)[0];
+            popup_61e5042714504a32b3c6e8583dabfc91.setContent(html_9735308d77b04e8dbea396c2b0e74dd8);
+        
+
+        marker_6d13239632854c0dbaf9a41918f1f954.bindPopup(popup_61e5042714504a32b3c6e8583dabfc91)
+        ;
+
+        
+    
+    
+            var marker_e29e6edd02cb4c1cb9b37e1bd3c7226e = L.marker(
+                [42.33476545836163, -71.12317553945721],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_70ba26d69e234745b7a69a5c39806e8b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "iconSize": [27, 27], "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_e29e6edd02cb4c1cb9b37e1bd3c7226e.setIcon(icon_70ba26d69e234745b7a69a5c39806e8b);
+        
+    
+        var popup_8734364de46741f7a34d960f5b487cd9 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_4e353d22ad7744f4a1656abddfa13904 = $(`<div id="html_4e353d22ad7744f4a1656abddfa13904" style="width: 100.0%; height: 100.0%;">L&#39;Accent Women&#39;s Fashion, 395 A Washington Street, Brookline, MA 02446, https://laccent-womens-fashion.business.site/</div>`)[0];
+            popup_8734364de46741f7a34d960f5b487cd9.setContent(html_4e353d22ad7744f4a1656abddfa13904);
+        
+
+        marker_e29e6edd02cb4c1cb9b37e1bd3c7226e.bindPopup(popup_8734364de46741f7a34d960f5b487cd9)
+        ;
+
+        
+    
+    
+            var marker_6cd3e1c31fc743c4ab4ee4a43d099010 = L.marker(
+                [42.3729024, -71.1206388],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_8dfa0b58a87d4e35800b5e3faec7c7b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "iconSize": [27, 27], "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_6cd3e1c31fc743c4ab4ee4a43d099010.setIcon(icon_8dfa0b58a87d4e35800b5e3faec7c7b4);
+        
+    
+        var popup_15f4e7abde9f4bef803a23ade74f3677 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_56f6f9624a554992a2335841770b5741 = $(`<div id="html_56f6f9624a554992a2335841770b5741" style="width: 100.0%; height: 100.0%;">Million Year Picnic (Comic Books), 99 Mount Auburn St, Cambridge, MA 02138, https://www.themillionyearpicnic.com/</div>`)[0];
+            popup_15f4e7abde9f4bef803a23ade74f3677.setContent(html_56f6f9624a554992a2335841770b5741);
+        
+
+        marker_6cd3e1c31fc743c4ab4ee4a43d099010.bindPopup(popup_15f4e7abde9f4bef803a23ade74f3677)
+        ;
+
+        
+    
+    
+            var marker_36c8f517d3f24b3c98aff96954c1ec13 = L.marker(
+                [42.36543733673469, -71.10395584693877],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_2efa1d0cb2374a57ad245415de12fab4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "iconSize": [27, 27], "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_36c8f517d3f24b3c98aff96954c1ec13.setIcon(icon_2efa1d0cb2374a57ad245415de12fab4);
+        
+    
+        var popup_91ee9b2d4c0c4fb18357a79518fe7605 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_afd88132796a4f3a920aa58bad993fe7 = $(`<div id="html_afd88132796a4f3a920aa58bad993fe7" style="width: 100.0%; height: 100.0%;">Nu Image Barbershop, 98 River Street Cambridge, MA 02139, http://www.nuimageonline.com/index.html</div>`)[0];
+            popup_91ee9b2d4c0c4fb18357a79518fe7605.setContent(html_afd88132796a4f3a920aa58bad993fe7);
+        
+
+        marker_36c8f517d3f24b3c98aff96954c1ec13.bindPopup(popup_91ee9b2d4c0c4fb18357a79518fe7605)
+        ;
+
+        
+    
+    
+            var marker_cdb0ffcc699d4fe593655d64130ea7be = L.marker(
+                [42.37825357142857, -71.06802628571428],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_3e004b50c1654b79a2cee4d417812451 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "iconSize": [27, 27], "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_cdb0ffcc699d4fe593655d64130ea7be.setIcon(icon_3e004b50c1654b79a2cee4d417812451);
+        
+    
+        var popup_ee7d3c9288644283bb1e005c3aa51726 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_510f2a1441d44f2fa9605dbb96894ec3 = $(`<div id="html_510f2a1441d44f2fa9605dbb96894ec3" style="width: 100.0%; height: 100.0%;">La Chic Dog Grooming Salon, 316 Main St, Charlestown, MA 02129, https://www.facebook.com/Lachicsdogandcatgrooming/</div>`)[0];
+            popup_ee7d3c9288644283bb1e005c3aa51726.setContent(html_510f2a1441d44f2fa9605dbb96894ec3);
+        
+
+        marker_cdb0ffcc699d4fe593655d64130ea7be.bindPopup(popup_ee7d3c9288644283bb1e005c3aa51726)
+        ;
+
+        
+    
+    
+            var marker_4c2b4d40c3bd42f29afc4b7714cdcdc3 = L.marker(
+                [42.3094644, -71.1043642],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_b32587bcd99342efbbb18495be286179 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "iconSize": [27, 27], "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_4c2b4d40c3bd42f29afc4b7714cdcdc3.setIcon(icon_b32587bcd99342efbbb18495be286179);
+        
+    
+        var popup_3a9785fb99704f70ae8576fed6ed5258 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_c7245a1080224ee18af8bd2a5ec4a9ff = $(`<div id="html_c7245a1080224ee18af8bd2a5ec4a9ff" style="width: 100.0%; height: 100.0%;">Exodus Bagels, 3346 Washington St, Boston, MA 02130, http://www.exodusbagels.com/</div>`)[0];
+            popup_3a9785fb99704f70ae8576fed6ed5258.setContent(html_c7245a1080224ee18af8bd2a5ec4a9ff);
+        
+
+        marker_4c2b4d40c3bd42f29afc4b7714cdcdc3.bindPopup(popup_3a9785fb99704f70ae8576fed6ed5258)
+        ;
+
+        
+    
+    
+            var marker_8fb51951a41441de8b96a337a830d3ac = L.marker(
+                [42.328802448947414, -71.0835718966415],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_64545a0705794e0a80ba71796f8a2f0a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "iconSize": [27, 27], "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_8fb51951a41441de8b96a337a830d3ac.setIcon(icon_64545a0705794e0a80ba71796f8a2f0a);
+        
+    
+        var popup_cb0607307dc742259d2bcdb479183e03 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_f706aaf42ff14dc38e2efa375ddd4b83 = $(`<div id="html_f706aaf42ff14dc38e2efa375ddd4b83" style="width: 100.0%; height: 100.0%;">Frugal Bookstore, 57 Warren St, Roxbury, MA 02119, https://frugalbookstore.net/</div>`)[0];
+            popup_cb0607307dc742259d2bcdb479183e03.setContent(html_f706aaf42ff14dc38e2efa375ddd4b83);
+        
+
+        marker_8fb51951a41441de8b96a337a830d3ac.bindPopup(popup_cb0607307dc742259d2bcdb479183e03)
+        ;
+
+        
+    
+    
+            var marker_e52c4b0d356f47998b60da469d8e8049 = L.marker(
+                [42.3896982, -71.0879773],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_b9d72b0328d74bc8ad7418cec5869c60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "iconSize": [27, 27], "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_e52c4b0d356f47998b60da469d8e8049.setIcon(icon_b9d72b0328d74bc8ad7418cec5869c60);
+        
+    
+        var popup_7a126f044ef047d8ad547dc8deb6b182 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_9fa1e89224724796955526193fcf8245 = $(`<div id="html_9fa1e89224724796955526193fcf8245" style="width: 100.0%; height: 100.0%;">Villeside CUstoms , 491 Broadway, Somerville, MA 02145, https://villesidecustoms.com/</div>`)[0];
+            popup_7a126f044ef047d8ad547dc8deb6b182.setContent(html_9fa1e89224724796955526193fcf8245);
+        
+
+        marker_e52c4b0d356f47998b60da469d8e8049.bindPopup(popup_7a126f044ef047d8ad547dc8deb6b182)
+        ;
+
+        
+    
+    
+            var marker_2553feb7368c4dcba8616cc7d1f018ea = L.marker(
+                [42.38580415, -71.07797437393333],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_0f26c5fdd8534d02ba106e50dd1373b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "iconSize": [27, 27], "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_2553feb7368c4dcba8616cc7d1f018ea.setIcon(icon_0f26c5fdd8534d02ba106e50dd1373b5);
+        
+    
+        var popup_790b6326bfa54e8b917b5913623dbb5c = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_7f063ca89658491a9073ba2e7876acc3 = $(`<div id="html_7f063ca89658491a9073ba2e7876acc3" style="width: 100.0%; height: 100.0%;">Fadil African Hair Braiding, 8 Broadway, Somerville, MA 02145, https://fadilafricanhairbraiding.com/</div>`)[0];
+            popup_790b6326bfa54e8b917b5913623dbb5c.setContent(html_7f063ca89658491a9073ba2e7876acc3);
+        
+
+        marker_2553feb7368c4dcba8616cc7d1f018ea.bindPopup(popup_790b6326bfa54e8b917b5913623dbb5c)
+        ;
+
+        
+    
+    
+            var marker_19c82908181a490bb2df987114fb15d1 = L.marker(
+                [42.4008434, -71.1172454],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_0dbcfa0781b1430eacaa76a53d2b2677 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "iconSize": [27, 27], "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_19c82908181a490bb2df987114fb15d1.setIcon(icon_0dbcfa0781b1430eacaa76a53d2b2677);
+        
+    
+        var popup_09f11f021aba4844bbc09227a32236b5 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_76795577b5f940af9662202554e2e5ff = $(`<div id="html_76795577b5f940af9662202554e2e5ff" style="width: 100.0%; height: 100.0%;">Just the Way You Like It Barber Shop, 1299 Broadway, Somerville, MA 02144, https://www.facebook.com/pages/Just-The-Way-You-Like-It-Barbershop/190913378226220</div>`)[0];
+            popup_09f11f021aba4844bbc09227a32236b5.setContent(html_76795577b5f940af9662202554e2e5ff);
+        
+
+        marker_19c82908181a490bb2df987114fb15d1.bindPopup(popup_09f11f021aba4844bbc09227a32236b5)
+        ;
+
+        
+    
+    
+            var marker_81107cf103a24078bd90d588d1020bf8 = L.marker(
+                [42.310416621645516, -71.08934653172189],
+                {}
+            ).addTo(map_4e20e27a28ef4879b160d80983725aa8);
+        
+    
+            var icon_b39181450b6048019691f83666bead8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "usd", "iconColor": "white", "iconSize": [27, 27], "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_81107cf103a24078bd90d588d1020bf8.setIcon(icon_b39181450b6048019691f83666bead8c);
+        
+    
+        var popup_27fd9bca5eb14a1f8d08523d4ec9a521 = L.popup({"autopan": "False", "maxWidth": "100%"});
+
+        
+            var html_186935ad93c44675b18778e5d2a5cd42 = $(`<div id="html_186935ad93c44675b18778e5d2a5cd42" style="width: 100.0%; height: 100.0%;">The G| Code House,  43 Hutchings Street in Roxbury, MA , https://www.thegcodehouse.com/</div>`)[0];
+            popup_27fd9bca5eb14a1f8d08523d4ec9a521.setContent(html_186935ad93c44675b18778e5d2a5cd42);
+        
+
+        marker_81107cf103a24078bd90d588d1020bf8.bindPopup(popup_27fd9bca5eb14a1f8d08523d4ec9a521)
+        ;
+
+        
+    
+</script>
