@@ -24,4 +24,4 @@ The data frames contained either a column with full addresses or a combination o
 
 Please feel free to contact me at [fisheravonlea@gmail.com](mailto:fisheravonlea@gmail.com) or via my [LinkedIn profile](https://www.linkedin.com/in/avonlea-fisher/) with any comments or inquiries regarding this project.
 
-Black Lives Matter is working to deveop a website, [Backing Black Business](https://www.backingblackbusiness.com/), that will include Black-owned businesses across the United States. If you are a Black business owner or know someone who is, you can submit information about your business via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfTlalteGhMVi9fQsSgnFpwnR-lNyPCf1CFxQGokc9nZfFPAQ/viewform).
+Black Lives Matter is working to deveop a website, [Backing Black Business](https://www.backingblackbusiness.com/), that will include Black-owned businesses across the United States. If you are a Black business owner or know someone who is, owners can submit information about their business via [this form](https://docs.google.com/forms/d/e/1FAIpQLSfTlalteGhMVi9fQsSgnFpwnR-lNyPCf1CFxQGokc9nZfFPAQ/viewform).
