@@ -13,7 +13,7 @@ The data frames contained either a column with full addresses or a combination o
 | <img src ='https://github.com/AvonleaFisher/Mapping-Boston-Black-Owned-Businesses/blob/main/Images/favpng_font-awesome-cutlery-fork-tableware.png' width="100" height="100" alt="Restaurants"></a>| <img src ='https://github.com/AvonleaFisher/Mapping-Boston-Black-Owned-Businesses/blob/main/Images/stores_dollar.png' width="100" height="100" alt="Stores"></a> || git diff | Show file differences that haven't been staged |
 
 ## Interactive Map
-* [Restaurants and Stores](https://avonleafisher.github.io/Mapping-Boston-Black-Owned-Businesses/): Map of Black-owned restaurants and stores, which includes both confirmed and unconfirmed entries from the above spreadsheet. Businesses with missing addresses whose geographic coordinates could not be obtained with GeoPy have not yet been added to the map.
+* [Restaurants and Stores](https://avonleafisher.github.io/Mapping-Boston-Black-Owned-Stores-and-Restaurants/): Map of Black-owned restaurants and stores, which includes both confirmed and unconfirmed entries from the above spreadsheet. Businesses with missing addresses whose geographic coordinates could not be obtained with GeoPy have not yet been added to the map.
 
 <img src="https://github.com/AvonleaFisher/Mapping-Boston-Black-Owned-Businesses/blob/main/Images/boston.gif"></a>
 
