@@ -1,7 +1,7 @@
 # Mapping Boston Black-Owned Businesses
 
 ## About
-The aim of this project is to develop a publicly accessible, interactive map of Black-owned businesses in and around Boston, Massachusetts. The map is intended for use by Boston residents and visitors seeking to support Black-owned businesses in order to help narrow the racial wealth gap and strengthen local economies. This project may also serve as a resource for individuals and organizations interested in developing similar maps for other geographic regions. 
+The aim of this project is to develop a publicly accessible, interactive map of Black-owned businesses in and around Boston, Massachusetts. The map is intended for use by Boston residents and visitors seeking to support Black-owned businesses to help narrow the racial wealth gap and strengthen local economies. This project may also serve as a resource for individuals and organizations interested in developing similar maps for other geographic regions. 
 
 ## Data
 Business names and addresses included in this project were accessed via a [crowd-sourced spreadsheet](https://docs.google.com/spreadsheets/d/1_wvyIj3w5F8XJn0leuGD5M9sAmaBKT8N2j0fEV0Df5I/edit?fbclid=IwAR3xpEGS_VBryR5oSIDE91aXE6KaSpLeD37t-s6eEF2Q4GRKwIU1ygNU_7Q#gid=778167218) of Black-owned businesses in and around Boston. The store, restaurant, and services sheets were downloaded as CSV files and read into separate pandas data frames. A restaurant-specific map was previously developed with data from this document, and can be accessed on the restaurant sheet.
