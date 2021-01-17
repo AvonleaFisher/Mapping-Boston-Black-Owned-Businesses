@@ -22,7 +22,9 @@ The [interactive map](https://avonleafisher.github.io/Mapping-Boston-Black-Owned
 
 ## Limitations and Next Steps
 
-Further research and outreach is neccessary to verify that every marker on the map corresponds to a Black-owned business, and that each marker appropriately represents the types of services offered by the business. Additionally, accurate address data should be obtained for every business with a physical location, as businesses with missing address data were excluded in the first stage of this project. Furthermore, the data used for the map is non-exhaustive, so efforts to contribute new and/or unlisted Black-owned businesses to the list should continue.
+* Further research and outreach is neccessary to verify that every marker on the map corresponds to a Black-owned business, and that each marker appropriately represents the types of services offered by the business. 
+* Accurate address data should be obtained for every business with a physical location, as businesses with missing address data were excluded in the first stage of this project. 
+* The data used for the map is non-exhaustive, so efforts to contribute new and/or unlisted Black-owned businesses to the list should continue.
 
 ## Further Information and Resources
 
