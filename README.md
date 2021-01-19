@@ -1,4 +1,7 @@
 # Mapping Boston Black-Owned Businesses
+<b>Author:</b> Avonlea Fisher
+
+<b>Blog Post:</b> [Mapping Black-Owned Businesses with GeoPy and Folium](https://towardsdatascience.com/mapping-black-owned-businesses-with-geopy-and-folium-4416adc4c7cb), published in [Towards Data Science](https://towardsdatascience.com/)
 
 ## About
 The aim of this project is to develop a public, interactive map of Black-owned businesses in and around Boston, Massachusetts. The map is intended for use by Boston residents and visitors seeking to support Black-owned businesses to help narrow the racial wealth gap and strengthen local economies. This project may also serve as a resource for individuals and organizations interested in developing similar maps for other geographic regions. 
